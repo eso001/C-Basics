@@ -1,0 +1,15 @@
+01:05:03 **** Incremental Build of configuration Debug for project FloatingPoint ****
+make all 
+Building file: ../src/FloatingPoint.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/FloatingPoint.d" -MT"src/FloatingPoint.o" -o "src/FloatingPoint.o" "../src/FloatingPoint.cpp"
+Finished building: ../src/FloatingPoint.cpp
+ 
+Building target: FloatingPoint
+Invoking: MacOS X C++ Linker
+g++  -o "FloatingPoint"  ./src/FloatingPoint.o   
+Finished building target: FloatingPoint
+ 
+
+01:05:04 Build Finished (took 544ms)
+

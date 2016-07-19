@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : OtherTypes.cpp
+// Author      : Eric So
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	bool bVal = true;
+
+	cout << bVal << endl;
+	return 0;
+}

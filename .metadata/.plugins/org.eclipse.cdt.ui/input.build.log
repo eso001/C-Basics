@@ -1,0 +1,15 @@
+00:47:49 **** Incremental Build of configuration Debug for project input ****
+make all 
+Building file: ../src/input.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/input.d" -MT"src/input.o" -o "src/input.o" "../src/input.cpp"
+Finished building: ../src/input.cpp
+ 
+Building target: input
+Invoking: MacOS X C++ Linker
+g++  -o "input"  ./src/input.o   
+Finished building target: input
+ 
+
+00:47:50 Build Finished (took 595ms)
+

@@ -1,0 +1,15 @@
+01:21:43 **** Incremental Build of configuration Debug for project OtherTypes ****
+make all 
+Building file: ../src/OtherTypes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/OtherTypes.d" -MT"src/OtherTypes.o" -o "src/OtherTypes.o" "../src/OtherTypes.cpp"
+Finished building: ../src/OtherTypes.cpp
+ 
+Building target: OtherTypes
+Invoking: MacOS X C++ Linker
+g++  -o "OtherTypes"  ./src/OtherTypes.o   
+Finished building target: OtherTypes
+ 
+
+01:21:44 Build Finished (took 654ms)
+

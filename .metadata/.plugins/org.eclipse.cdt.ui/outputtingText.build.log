@@ -1,0 +1,15 @@
+19:52:00 **** Incremental Build of configuration Debug for project outputtingText ****
+make all 
+Building file: ../src/outputtingText.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/outputtingText.d" -MT"src/outputtingText.o" -o "src/outputtingText.o" "../src/outputtingText.cpp"
+Finished building: ../src/outputtingText.cpp
+ 
+Building target: outputtingText
+Invoking: MacOS X C++ Linker
+g++  -o "outputtingText"  ./src/outputtingText.o   
+Finished building target: outputtingText
+ 
+
+19:52:00 Build Finished (took 590ms)
+

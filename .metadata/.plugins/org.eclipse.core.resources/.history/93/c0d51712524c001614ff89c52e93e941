@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : multidimensionalArrays.cpp
+// Author      : Eric So
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	string animals[2][3] = {
+			{"monkey", "fox", "dog"},
+			{"panda", "kangaroo", "koala"}
+	};
+	return 0;
+}

@@ -1,0 +1,15 @@
+12:23:17 **** Incremental Build of configuration Debug for project multidimensionalArrays ****
+make all 
+Building file: ../src/multidimensionalArrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multidimensionalArrays.d" -MT"src/multidimensionalArrays.o" -o "src/multidimensionalArrays.o" "../src/multidimensionalArrays.cpp"
+Finished building: ../src/multidimensionalArrays.cpp
+ 
+Building target: multidimensionalArrays
+Invoking: MacOS X C++ Linker
+g++  -o "multidimensionalArrays"  ./src/multidimensionalArrays.o   
+Finished building target: multidimensionalArrays
+ 
+
+12:23:17 Build Finished (took 604ms)
+

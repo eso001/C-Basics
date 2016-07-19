@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : arrays.cpp
+// Author      : Eric So
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int values[3];
+
+	values[0] = 88;
+
+	cout << values [0] << endl;
+
+	return 0;
+}
