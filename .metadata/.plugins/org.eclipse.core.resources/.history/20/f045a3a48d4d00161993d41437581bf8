@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : Classes.cpp
+// Author      : Eric So
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+#include "Cat.h"
+
+int main() {
+
+	speak();
+
+	cout << "Hello" << endl;
+	return 0;
+}

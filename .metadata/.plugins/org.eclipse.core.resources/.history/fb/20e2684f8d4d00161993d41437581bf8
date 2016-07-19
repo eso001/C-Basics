@@ -1,0 +1,13 @@
+/*
+ * Cat.cpp
+ *
+ *  Created on: Jul 19, 2016
+ *      Author: ericso0303
+ */
+#include "Cat.h"
+
+void speak(){
+	cout << "Meow!" << endl;
+}
+
+

@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : prototypesAndIncludes.cpp
+// Author      : Eric So
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+void doSomething(){
+	cout << "Hello" << endl;
+}
+
+int main() {
+
+	doSomething();
+	doSomething();
+	return 0;
+}

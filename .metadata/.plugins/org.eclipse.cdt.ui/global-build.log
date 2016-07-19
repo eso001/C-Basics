@@ -708,3 +708,245 @@ Invoking: MacOS X C++ Linker
 g++  -o "switch"  ./src/switch.o   
 Finished building target: switch
  
+01:03:40 **** Build of configuration Debug for project functions ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
+Finished building: ../src/functions.cpp
+ 
+Building target: functions
+Invoking: MacOS X C++ Linker
+g++  -o "functions"  ./src/functions.o   
+Finished building target: functions
+ 
+01:04:22 **** Incremental Build of configuration Debug for project functions ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
+Finished building: ../src/functions.cpp
+ 
+Building target: functions
+Invoking: MacOS X C++ Linker
+g++  -o "functions"  ./src/functions.o   
+Finished building target: functions
+ 
+01:04:51 **** Incremental Build of configuration Debug for project functions ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
+Finished building: ../src/functions.cpp
+ 
+Building target: functions
+Invoking: MacOS X C++ Linker
+g++  -o "functions"  ./src/functions.o   
+Finished building target: functions
+ 
+01:04:56 **** Incremental Build of configuration Debug for project functions ****
+make all 
+make: Nothing to be done for `all'.
+01:15:34 **** Incremental Build of configuration Debug for project functions ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
+../src/functions.cpp:22:2: error: void function 'getInput' should not return a value [-Wreturn-type]
+        return input;
+        ^      ~~~~~
+../src/functions.cpp:43:6: error: cannot initialize a variable of type 'int' with an rvalue of type 'void'
+        int selection = getInput();
+            ^           ~~~~~~~~~~
+2 errors generated.
+make: *** [src/functions.o] Error 1
+01:16:34 **** Incremental Build of configuration Debug for project functions ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
+../src/functions.cpp:22:2: error: void function 'getInput' should not return a value [-Wreturn-type]
+        return input;
+        ^      ~~~~~
+../src/functions.cpp:43:6: error: cannot initialize a variable of type 'int' with an rvalue of type 'void'
+        int selection = getInput();
+            ^           ~~~~~~~~~~
+2 errors generated.
+make: *** [src/functions.o] Error 1
+01:18:07 **** Incremental Build of configuration Debug for project functions ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
+Finished building: ../src/functions.cpp
+ 
+Building target: functions
+Invoking: MacOS X C++ Linker
+g++  -o "functions"  ./src/functions.o   
+Finished building target: functions
+ 
+01:19:26 **** Incremental Build of configuration Debug for project functions ****
+make all 
+Building file: ../src/functions.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
+Finished building: ../src/functions.cpp
+ 
+Building target: functions
+Invoking: MacOS X C++ Linker
+g++  -o "functions"  ./src/functions.o   
+Finished building target: functions
+ 
+01:40:59 **** Build of configuration Debug for project prototypesAndIncludes ****
+make all 
+Building file: ../src/prototypesAndIncludes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prototypesAndIncludes.d" -MT"src/prototypesAndIncludes.o" -o "src/prototypesAndIncludes.o" "../src/prototypesAndIncludes.cpp"
+Finished building: ../src/prototypesAndIncludes.cpp
+ 
+Building target: prototypesAndIncludes
+Invoking: MacOS X C++ Linker
+g++  -o "prototypesAndIncludes"  ./src/prototypesAndIncludes.o   
+Finished building target: prototypesAndIncludes
+ 
+01:41:03 **** Incremental Build of configuration Debug for project prototypesAndIncludes ****
+make all 
+make: Nothing to be done for `all'.
+01:41:19 **** Incremental Build of configuration Debug for project prototypesAndIncludes ****
+make all 
+Building file: ../src/prototypesAndIncludes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prototypesAndIncludes.d" -MT"src/prototypesAndIncludes.o" -o "src/prototypesAndIncludes.o" "../src/prototypesAndIncludes.cpp"
+../src/prototypesAndIncludes.cpp:19:12: error: no matching function for call to 'multiplyByThree'
+        int num = multiplyByThree(4);
+                  ^~~~~~~~~~~~~~~
+../src/utils.h:12:5: note: candidate function not viable: requires 0 arguments, but 1 was provided
+int multiplyByThree();
+    ^
+1 error generated.
+make: *** [src/prototypesAndIncludes.o] Error 1
+01:41:35 **** Incremental Build of configuration Debug for project prototypesAndIncludes ****
+make all 
+Building file: ../src/prototypesAndIncludes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prototypesAndIncludes.d" -MT"src/prototypesAndIncludes.o" -o "src/prototypesAndIncludes.o" "../src/prototypesAndIncludes.cpp"
+Finished building: ../src/prototypesAndIncludes.cpp
+ 
+Building target: prototypesAndIncludes
+Invoking: MacOS X C++ Linker
+g++  -o "prototypesAndIncludes"  ./src/prototypesAndIncludes.o   
+Finished building target: prototypesAndIncludes
+ 
+01:42:52 **** Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Classes.o   
+Finished building target: Classes
+ 
+01:42:58 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+make: Nothing to be done for `all'.
+01:43:09 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Classes.o   
+Finished building target: Classes
+ 
+01:47:17 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:14:2: error: use of undeclared identifier 'speak'
+        speak();
+        ^
+1 error generated.
+make: *** [src/Classes.o] Error 1
+01:48:01 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
+Finished building target: Classes
+ 
+01:48:42 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:15:2: error: use of undeclared identifier 'speak'
+        speak();
+        ^
+1 error generated.
+make: *** [src/Classes.o] Error 1
+01:49:03 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+../src/Classes.cpp:15:2: error: use of undeclared identifier 'speak'
+        speak();
+        ^
+1 error generated.
+make: *** [src/Classes.o] Error 1
+01:49:23 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
+Finished building target: Classes
+ 
+01:53:21 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
+Finished building target: Classes
+ 
