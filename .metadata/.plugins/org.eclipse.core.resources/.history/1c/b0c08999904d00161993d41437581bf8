@@ -1,0 +1,14 @@
+/*
+ * Dog.cpp
+ *
+ *  Created on: Jul 19, 2016
+ *      Author: ericso0303
+ */
+#include <iostream>
+#include "Dog.h"
+
+using namespace std;
+
+void Dog::speak(){
+	cout << "bark" << endl;
+}

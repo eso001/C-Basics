@@ -1,4 +1,4 @@
-01:53:21 **** Incremental Build of configuration Debug for project Classes ****
+01:58:42 **** Incremental Build of configuration Debug for project Classes ****
 make all 
 Building file: ../src/Cat.cpp
 Invoking: GCC C++ Compiler
@@ -16,5 +16,5 @@ g++  -o "Classes"  ./src/Cat.o ./src/Classes.o
 Finished building target: Classes
  
 
-01:53:23 Build Finished (took 1s.946ms)
+01:58:44 Build Finished (took 2s.653ms)
 

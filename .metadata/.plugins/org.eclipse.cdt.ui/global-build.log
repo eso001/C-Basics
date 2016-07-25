@@ -950,3 +950,122 @@ Invoking: MacOS X C++ Linker
 g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
 Finished building target: Classes
  
+01:58:42 **** Incremental Build of configuration Debug for project Classes ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Classes.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
+Finished building: ../src/Classes.cpp
+ 
+Building target: Classes
+Invoking: MacOS X C++ Linker
+g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
+Finished building target: Classes
+ 
+02:01:56 **** Build of configuration Debug for project DataMembers ****
+make all 
+Building file: ../src/DataMembers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
+Finished building: ../src/DataMembers.cpp
+ 
+Building target: DataMembers
+Invoking: MacOS X C++ Linker
+g++  -o "DataMembers"  ./src/DataMembers.o   
+Finished building target: DataMembers
+ 
+02:05:48 **** Incremental Build of configuration Debug for project DataMembers ****
+make all 
+Building file: ../src/DataMembers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
+In file included from ../src/DataMembers.cpp:10:
+../src/Dog.h:12:8: error: expected ':'
+        public
+              ^
+              :
+../src/DataMembers.cpp:15:6: warning: unused variable 'dog' [-Wunused-variable]
+        Dog dog;
+            ^
+1 warning and 1 error generated.
+make: *** [src/DataMembers.o] Error 1
+02:07:34 **** Incremental Build of configuration Debug for project DataMembers ****
+make all 
+Building file: ../src/DataMembers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
+Finished building: ../src/DataMembers.cpp
+ 
+Building file: ../src/Dog.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Dog.d" -MT"src/Dog.o" -o "src/Dog.o" "../src/Dog.cpp"
+Finished building: ../src/Dog.cpp
+ 
+Building target: DataMembers
+Invoking: MacOS X C++ Linker
+g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
+Finished building target: DataMembers
+ 
+02:10:18 **** Incremental Build of configuration Debug for project DataMembers ****
+make all 
+Building file: ../src/DataMembers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
+Finished building: ../src/DataMembers.cpp
+ 
+Building file: ../src/Dog.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Dog.d" -MT"src/Dog.o" -o "src/Dog.o" "../src/Dog.cpp"
+Finished building: ../src/Dog.cpp
+ 
+Building target: DataMembers
+Invoking: MacOS X C++ Linker
+g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
+Finished building target: DataMembers
+ 
+02:10:29 **** Incremental Build of configuration Debug for project DataMembers ****
+make all 
+Building file: ../src/DataMembers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
+Finished building: ../src/DataMembers.cpp
+ 
+Building target: DataMembers
+Invoking: MacOS X C++ Linker
+g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
+Finished building target: DataMembers
+ 
+02:10:48 **** Incremental Build of configuration Debug for project DataMembers ****
+make all 
+Building file: ../src/DataMembers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
+Finished building: ../src/DataMembers.cpp
+ 
+Building target: DataMembers
+Invoking: MacOS X C++ Linker
+g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
+Finished building target: DataMembers
+ 
+02:14:17 **** Incremental Build of configuration Debug for project DataMembers ****
+make all 
+Building file: ../src/DataMembers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
+Finished building: ../src/DataMembers.cpp
+ 
+Building file: ../src/Dog.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Dog.d" -MT"src/Dog.o" -o "src/Dog.o" "../src/Dog.cpp"
+Finished building: ../src/Dog.cpp
+ 
+Building target: DataMembers
+Invoking: MacOS X C++ Linker
+g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
+Finished building target: DataMembers
+ 

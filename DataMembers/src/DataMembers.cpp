@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Classes.cpp
+// Name        : DataMembers.cpp
 // Author      : Eric So
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,15 +7,18 @@
 //============================================================================
 
 #include <iostream>
-
-#include "Cat.h"
+#include "Dog.h"
 using namespace std;
+
 int main() {
 
-	Cat cat;
+	Dog dog;
+	dog.makeHappy();
+	dog.speak();
 
-	cat.speak();
-	cat.jump();
+	Dog dog2;
+	dog.makeSad();
+	dog2.speak();
 
 	return 0;
 }

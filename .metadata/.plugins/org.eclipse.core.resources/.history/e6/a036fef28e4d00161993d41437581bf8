@@ -10,10 +10,10 @@
 
 using namespace std;
 
-void Cat::speak(){
+void speak(){
 	cout << "Meow!" << endl;
 }
 
-void Cat::jump() {
+void jump() {
 	cout << "Jumping to Bookshelf" << endl;
 }

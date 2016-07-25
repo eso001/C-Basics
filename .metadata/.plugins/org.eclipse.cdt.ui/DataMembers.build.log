@@ -1,0 +1,20 @@
+02:14:17 **** Incremental Build of configuration Debug for project DataMembers ****
+make all 
+Building file: ../src/DataMembers.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
+Finished building: ../src/DataMembers.cpp
+ 
+Building file: ../src/Dog.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Dog.d" -MT"src/Dog.o" -o "src/Dog.o" "../src/Dog.cpp"
+Finished building: ../src/Dog.cpp
+ 
+Building target: DataMembers
+Invoking: MacOS X C++ Linker
+g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
+Finished building target: DataMembers
+ 
+
+02:14:20 Build Finished (took 2s.598ms)
+
