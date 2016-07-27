@@ -431,3 +431,41 @@ java.io.FileNotFoundException: /Users/ericso0303/Documents/workspace/DataMembers
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-07-24 20:58:49.032 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/ericso0303/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/ericso0303/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-07-24 20:59:07.422
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-07-24 21:00:39.794
+!MESSAGE Indexed 'Data Members 2' (1 sources, 173 headers) in 9.41 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-07-24 21:46:08.052
+!MESSAGE Indexed 'Constructors and Destructors' (1 sources, 0 headers) in 0.062 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+!SESSION 2016-07-27 00:14:07.897 -----------------------------------------------
+eclipse.buildId=4.6.0.I20160606-1100
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -keyring /Users/ericso0303/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.cpp.product -keyring /Users/ericso0303/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2016-07-27 00:14:45.591
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-07-27 00:42:41.261
+!MESSAGE Indexed 'itsMeMario' (1 sources, 173 headers) in 8.52 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-07-27 00:42:45.697
+!MESSAGE Indexed 'bruh' (1 sources, 173 headers) in 4.36 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-07-27 00:42:45.699
+!MESSAGE Indexed 'tester' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-07-27 01:23:06.779
+!MESSAGE Indexed 'Getters and Setters' (1 sources, 173 headers) in 5.72 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)

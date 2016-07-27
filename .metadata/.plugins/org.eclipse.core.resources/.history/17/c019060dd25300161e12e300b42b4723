@@ -1,0 +1,18 @@
+/*
+ * Cat.cpp
+ *
+ *  Created on: Jul 27, 2016
+ *      Author: ericso0303
+ */
+#include <iostream>
+#include "Cat.h"
+
+using namespace std;
+
+void Cat::speak(){
+	if(happy){
+		cout << "Meow" << endl;
+	} else {
+		cout << "RAWR" << endl;
+	}
+}

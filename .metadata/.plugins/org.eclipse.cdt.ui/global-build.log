@@ -1069,3 +1069,206 @@ Invoking: MacOS X C++ Linker
 g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
 Finished building target: DataMembers
  
+21:06:38 **** Build of configuration Debug for project Data Members 2 ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members 2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
+../src/Data Members 2.cpp:14:6: warning: unused variable 'jim' [-Wunused-variable]
+        Cat jim;
+            ^
+1 warning generated.
+Finished building: ../src/Data Members 2.cpp
+ 
+Building target: Data Members 2
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
+Finished building target: Data Members 2
+ 
+21:09:36 **** Incremental Build of configuration Debug for project Data Members 2 ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members 2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
+Finished building: ../src/Data Members 2.cpp
+ 
+Building target: Data Members 2
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
+Finished building target: Data Members 2
+ 
+21:13:14 **** Incremental Build of configuration Debug for project Data Members 2 ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members 2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
+../src/Data Members 2.cpp:16:6: error: 'happy' is a private member of 'Cat'
+        jim.happy = false;
+            ^
+../src/Cat.h:13:7: note: declared private here
+        bool happy;
+             ^
+../src/Data Members 2.cpp:20:6: error: 'happy' is a private member of 'Cat'
+        bob.happy = true;
+            ^
+../src/Cat.h:13:7: note: declared private here
+        bool happy;
+             ^
+2 errors generated.
+make: *** [src/Data Members 2.o] Error 1
+21:15:20 **** Incremental Build of configuration Debug for project Data Members 2 ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Data Members 2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
+Finished building: ../src/Data Members 2.cpp
+ 
+Building target: Data Members 2
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
+Finished building target: Data Members 2
+ 
+01:03:02 **** Incremental Build of configuration Debug for project Data Members 2 ****
+make all 
+Building file: ../src/Data Members 2.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
+Finished building: ../src/Data Members 2.cpp
+ 
+Building target: Data Members 2
+Invoking: MacOS X C++ Linker
+g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
+Finished building target: Data Members 2
+ 
+01:06:31 **** Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+01:08:50 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+../src/Constructors and Destructors.cpp:10:17: warning: extra tokens at end of #include directive [-Wextra-tokens]
+#include "Cat.h";
+                ^
+                //
+1 warning generated.
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+01:10:58 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+In file included from ../src/Cat.cpp:8:
+../src/Cat.h:13:13: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        bool happy = true;
+                   ^
+1 warning generated.
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+In file included from ../src/Constructors and Destructors.cpp:10:
+../src/Cat.h:13:13: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        bool happy = true;
+                   ^
+1 warning generated.
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+01:14:06 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+01:15:41 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
+01:18:16 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
+make all 
+Building file: ../src/Constructors and Destructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
+Finished building: ../src/Constructors and Destructors.cpp
+ 
+Building target: Constructors and Destructors
+Invoking: MacOS X C++ Linker
+g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
+Finished building target: Constructors and Destructors
+ 
