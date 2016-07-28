@@ -7,9 +7,22 @@
 //============================================================================
 
 #include <iostream>
+#include "Person.h"
+
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+
+	Person person;
+
+	cout << person.toString() << endl;
+
+	person.setName("Eric is pretty okay");
+
+	cout << person.toString() << endl;
+
+	person.setName("Falcon Punch");
+
+	cout << "Name of person with get method: " << person.getName() << endl;
 	return 0;
 }
