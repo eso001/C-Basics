@@ -1431,3 +1431,47 @@ Invoking: MacOS X C++ Linker
 g++  -o "String Streams"  ./src/String\ Streams.o   
 Finished building target: String Streams
  
+20:57:45 **** Build of configuration Debug for project Overloading Constructors ****
+make all 
+Building file: ../src/Overloading Constructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading Constructors.d" -MT"src/Overloading\ Constructors.d" -o "src/Overloading Constructors.o" "../src/Overloading Constructors.cpp"
+../src/Overloading Constructors.cpp:13:2: error: unknown type name 'Person'
+        Person person1;
+        ^
+1 error generated.
+make: *** [src/Overloading Constructors.o] Error 1
+20:58:07 **** Incremental Build of configuration Debug for project Overloading Constructors ****
+make all 
+Building file: ../src/Overloading Constructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading Constructors.d" -MT"src/Overloading\ Constructors.d" -o "src/Overloading Constructors.o" "../src/Overloading Constructors.cpp"
+Finished building: ../src/Overloading Constructors.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Overloading Constructors
+Invoking: MacOS X C++ Linker
+g++  -o "Overloading Constructors"  ./src/Overloading\ Constructors.o ./src/Person.o   
+Finished building target: Overloading Constructors
+ 
+21:03:06 **** Incremental Build of configuration Debug for project Overloading Constructors ****
+make all 
+Building file: ../src/Overloading Constructors.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading Constructors.d" -MT"src/Overloading\ Constructors.d" -o "src/Overloading Constructors.o" "../src/Overloading Constructors.cpp"
+Finished building: ../src/Overloading Constructors.cpp
+ 
+Building file: ../src/Person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
+Finished building: ../src/Person.cpp
+ 
+Building target: Overloading Constructors
+Invoking: MacOS X C++ Linker
+g++  -o "Overloading Constructors"  ./src/Overloading\ Constructors.o ./src/Person.o   
+Finished building target: Overloading Constructors
+ 

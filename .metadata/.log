@@ -475,3 +475,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.equinox.p2.repository 2 0 2016-07-27 20:31:17.706
 !MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/15knots/cmake4eclipse/master/releng/comp-update/compositeContent.xml
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-07-28 20:54:07.734
+!MESSAGE Indexed 'Overloading Constructors' (1 sources, 173 headers) in 6.72 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)

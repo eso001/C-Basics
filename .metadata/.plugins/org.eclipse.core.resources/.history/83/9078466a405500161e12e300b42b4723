@@ -1,0 +1,13 @@
+/*
+ * Person.cpp
+ *
+ *  Created on: Jul 28, 2016
+ *      Author: ericso0303
+ */
+
+#include "Person.h"
+
+Person::Person(){
+	name = "undefined";
+	age = 0;
+}
