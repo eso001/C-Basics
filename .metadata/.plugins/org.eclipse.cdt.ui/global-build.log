@@ -1475,3 +1475,211 @@ Invoking: MacOS X C++ Linker
 g++  -o "Overloading Constructors"  ./src/Overloading\ Constructors.o ./src/Person.o   
 Finished building target: Overloading Constructors
  
+01:52:43 **** Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/This.o   
+Finished building target: This
+ 
+01:55:46 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+In file included from ../src/This.cpp:10:
+../src/Person.h:19:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
+        Person();
+        ^~~~~~
+        person
+../src/This.cpp:15:2: error: unknown type name 'Person'; did you mean 'person'?
+        Person person;
+        ^~~~~~
+        person
+../src/Person.h:14:7: note: 'person' declared here
+class person {
+      ^
+2 errors generated.
+make: *** [src/This.o] Error 1
+01:57:38 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+In file included from ../src/This.cpp:10:
+../src/Person.h:19:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
+        Person();
+        ^~~~~~
+        person
+../src/Person.h:20:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
+        Person(string name, int age);
+        ^~~~~~
+        person
+../src/This.cpp:15:2: error: unknown type name 'Person'; did you mean 'person'?
+        Person person;
+        ^~~~~~
+        person
+../src/Person.h:14:7: note: 'person' declared here
+class person {
+      ^
+3 errors generated.
+make: *** [src/This.o] Error 1
+01:58:25 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+In file included from ../src/This.cpp:10:
+../src/person.h:19:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
+        Person();
+        ^~~~~~
+        person
+../src/person.h:20:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
+        Person(string name, int age);
+        ^~~~~~
+        person
+../src/This.cpp:15:2: error: unknown type name 'Person'; did you mean 'person'?
+        Person person;
+        ^~~~~~
+        person
+../src/person.h:14:7: note: 'person' declared here
+class person {
+      ^
+3 errors generated.
+make: *** [src/This.o] Error 1
+01:59:32 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building file: ../src/person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
+Finished building: ../src/person.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/This.o ./src/person.o   
+Finished building target: This
+ 
+02:01:19 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
+Finished building: ../src/person.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/This.o ./src/person.o   
+Finished building target: This
+ 
+02:02:29 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building file: ../src/person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
+Finished building: ../src/person.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/This.o ./src/person.o   
+Finished building target: This
+ 
+02:04:49 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building file: ../src/person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
+Finished building: ../src/person.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/This.o ./src/person.o   
+Finished building target: This
+ 
+02:06:03 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building file: ../src/person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
+Finished building: ../src/person.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/This.o ./src/person.o   
+Finished building target: This
+ 
+02:06:34 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+../src/This.cpp:21:59: error: member reference type 'Person' is not a pointer; did you mean to use '.'?
+        cout << Eric.toString() << "; memory location: " << &Eric->name << endl;
+                                                             ~~~~^~
+                                                                 .
+../src/This.cpp:21:61: error: 'name' is a private member of 'Person'
+        cout << Eric.toString() << "; memory location: " << &Eric->name << endl;
+                                                                   ^
+../src/person.h:16:9: note: declared private here
+        string name;
+               ^
+2 errors generated.
+make: *** [src/This.o] Error 1
+02:34:18 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building file: ../src/person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
+Finished building: ../src/person.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/This.o ./src/person.o   
+Finished building target: This
+ 
+02:36:02 **** Incremental Build of configuration Debug for project This ****
+make all 
+Building file: ../src/This.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
+Finished building: ../src/This.cpp
+ 
+Building file: ../src/person.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
+Finished building: ../src/person.cpp
+ 
+Building target: This
+Invoking: MacOS X C++ Linker
+g++  -o "This"  ./src/This.o ./src/person.o   
+Finished building target: This
+ 

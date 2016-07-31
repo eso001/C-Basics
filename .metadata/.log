@@ -478,3 +478,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.cdt.core 1 0 2016-07-28 20:54:07.734
 !MESSAGE Indexed 'Overloading Constructors' (1 sources, 173 headers) in 6.72 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-07-29 01:52:41.953
+!MESSAGE Indexed 'This' (1 sources, 173 headers) in 6.02 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)

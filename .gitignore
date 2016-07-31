@@ -1,2 +1,13 @@
 **/Debug
 **/settings
+**/*.d
+**/*.o
+**/Debug/**
+**/.cproject
+**/.DS_Store
+**/.project
+.gitignore
+**/Release/**
+**/*.bmp
+**/.metadata/**
+**/.zip
