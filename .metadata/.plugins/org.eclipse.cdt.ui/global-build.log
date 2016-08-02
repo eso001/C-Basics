@@ -2255,3 +2255,275 @@ Invoking: MacOS X C++ Linker
 g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
 Finished building target: Pointer Arithmetic
  
+14:31:25 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:31:38 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:31:49 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:32:42 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:25:11: error: use of undeclared identifier 'pTexs'; did you mean 'pTexts'?
+        cout << *pTexs << endl;
+                 ^~~~~
+                 pTexts
+../src/Pointer Arithmetic.cpp:17:10: note: 'pTexts' declared here
+        string *pTexts = texts;
+                ^
+1 error generated.
+make: *** [src/Pointer Arithmetic.o] Error 1
+14:32:49 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:33:23 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:27:10: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'string *' (aka 'basic_string<char, char_traits<char>, allocator<char> > *')
+        string *pEnd = texts[NSTRINGS-1]
+                ^      ~~~~~~~~~~~~~~~~~
+../src/Pointer Arithmetic.cpp:27:34: error: expected ';' at end of declaration
+        string *pEnd = texts[NSTRINGS-1]
+                                        ^
+                                        ;
+2 errors generated.
+make: *** [src/Pointer Arithmetic.o] Error 1
+14:34:03 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:27:10: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'string *' (aka 'basic_string<char, char_traits<char>, allocator<char> > *')
+        string *pEnd = texts[NSTRINGS-1];
+                ^      ~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [src/Pointer Arithmetic.o] Error 1
+14:35:36 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:36:51 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:39:04 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:39:33 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:40:00 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:41:20 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:41:33 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:46:28 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:13:12: warning: unused variable 'arrayLength' [-Wunused-variable]
+        const int arrayLength = 10;
+                  ^
+1 warning generated.
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:46:38 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:13:12: warning: unused variable 'arrayLength' [-Wunused-variable]
+        const int arrayLength = 10;
+                  ^
+1 warning generated.
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+14:47:16 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:13:12: warning: unused variable 'arrayLength' [-Wunused-variable]
+        const int arrayLength = 10;
+                  ^
+1 warning generated.
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+15:26:48 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:29:24: error: expected ';' after expression
+        pfirstAnimal = &mainRa y[0];
+                              ^
+                              ;
+../src/Pointer Arithmetic.cpp:29:18: error: use of undeclared identifier 'mainRa'
+        pfirstAnimal = &mainRa y[0];
+                        ^
+../src/Pointer Arithmetic.cpp:29:25: error: use of undeclared identifier 'y'
+        pfirstAnimal = &mainRa y[0];
+                               ^
+../src/Pointer Arithmetic.cpp:31:11: error: use of undeclared identifier 'pFirstAnimal'; did you mean 'pfirstAnimal'?
+                cout << pFirstAnimal << endl;
+                        ^~~~~~~~~~~~
+                        pfirstAnimal
+../src/Pointer Arithmetic.cpp:17:10: note: 'pfirstAnimal' declared here
+        string *pfirstAnimal = mainRay;
+                ^
+4 errors generated.
+make: *** [src/Pointer Arithmetic.o] Error 1
+15:27:02 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:31:11: error: use of undeclared identifier 'pFirstAnimal'; did you mean 'pfirstAnimal'?
+                cout << pFirstAnimal << endl;
+                        ^~~~~~~~~~~~
+                        pfirstAnimal
+../src/Pointer Arithmetic.cpp:17:10: note: 'pfirstAnimal' declared here
+        string *pfirstAnimal = mainRay;
+                ^
+1 error generated.
+make: *** [src/Pointer Arithmetic.o] Error 1
+15:27:22 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:13:12: warning: unused variable 'arrayLength' [-Wunused-variable]
+        const int arrayLength = 10;
+                  ^
+1 warning generated.
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
