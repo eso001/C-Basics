@@ -2012,3 +2012,209 @@ Invoking: MacOS X C++ Linker
 g++  -o "Arithmetic"  ./src/Arithmetic.o   
 Finished building target: Arithmetic
  
+11:27:01 **** Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:27:38 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:30:05 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+../src/Pointers and Arrays.cpp:20:10: error: redefinition of 'pTexts'
+        string *pTexts = texts;
+                ^
+../src/Pointers and Arrays.cpp:16:10: note: previous definition is here
+        string *pTexts = texts;
+                ^
+1 error generated.
+make: *** [src/Pointers and Arrays.o] Error 1
+11:30:33 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:31:13 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:31:22 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:31:55 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:33:08 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:35:52 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+../src/Pointers and Arrays.cpp:32:10: warning: unused variable 'pEnd' [-Wunused-variable]
+        string *pEnd = &texts[sizeof(texts)/sizeof(string) - 1];
+                ^
+../src/Pointers and Arrays.cpp:31:10: warning: unused variable 'pElement' [-Wunused-variable]
+        string *pElement = texts;
+                ^
+2 warnings generated.
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:38:00 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+../src/Pointers and Arrays.cpp:40:3: warning: expression result unused [-Wunused-value]
+                *pElement++;
+                ^~~~~~~~~~~
+1 warning generated.
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:38:29 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+../src/Pointers and Arrays.cpp:45:3: warning: expression result unused [-Wunused-value]
+                *pElement++;
+                ^~~~~~~~~~~
+1 warning generated.
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:39:04 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+../src/Pointers and Arrays.cpp:38:46: error: expected ';' after expression
+                cout << *pElement << " " << pElement << " " flush;
+                                                           ^
+                                                           ;
+../src/Pointers and Arrays.cpp:38:47: error: reference to overloaded function could not be resolved; did you mean to call it?
+                cout << *pElement << " " << pElement << " " flush;
+                                                            ^~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1051:1: note: possible target for call
+flush(basic_ostream<_CharT, _Traits>& __os)
+^
+2 errors generated.
+make: *** [src/Pointers and Arrays.o] Error 1
+11:39:31 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+../src/Pointers and Arrays.cpp:38:34: error: expected ';' after expression
+                cout << *pElement << " " << " " flush;
+                                               ^
+                                               ;
+../src/Pointers and Arrays.cpp:38:35: error: reference to overloaded function could not be resolved; did you mean to call it?
+                cout << *pElement << " " << " " flush;
+                                                ^~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1051:1: note: possible target for call
+flush(basic_ostream<_CharT, _Traits>& __os)
+^
+2 errors generated.
+make: *** [src/Pointers and Arrays.o] Error 1
+11:39:59 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
+11:40:08 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
+make all 
+Building file: ../src/Pointers and Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
+Finished building: ../src/Pointers and Arrays.cpp
+ 
+Building target: Pointers and Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
+Finished building target: Pointers and Arrays
+ 
