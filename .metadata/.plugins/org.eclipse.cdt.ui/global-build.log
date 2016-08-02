@@ -2218,3 +2218,40 @@ Invoking: MacOS X C++ Linker
 g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
 Finished building target: Pointers and Arrays
  
+12:05:18 **** Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+../src/Pointer Arithmetic.cpp:19:2: error: expected unqualified-id
+        return 0;
+        ^
+../src/Pointer Arithmetic.cpp:20:1: error: extraneous closing brace ('}')
+}
+^
+2 errors generated.
+make: *** [src/Pointer Arithmetic.o] Error 1
+12:05:35 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
+12:06:45 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make all 
+Building file: ../src/Pointer Arithmetic.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
+Finished building: ../src/Pointer Arithmetic.cpp
+ 
+Building target: Pointer Arithmetic
+Invoking: MacOS X C++ Linker
+g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
+Finished building target: Pointer Arithmetic
+ 
