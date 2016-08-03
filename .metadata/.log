@@ -600,3 +600,9 @@ java.io.FileNotFoundException: /Users/ericso0303/Documents/workspace/Pointer Ari
 
 !ENTRY org.eclipse.cdt.core 1 0 2016-08-02 16:31:21.835
 !MESSAGE Indexed 'Reversing a String' (1 sources, 173 headers) in 3.34 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-08-02 17:24:34.756
+!MESSAGE Indexed 'References' (1 sources, 173 headers) in 4.03 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-08-02 18:09:36.149
+!MESSAGE Indexed 'Const' (1 sources, 173 headers) in 3.4 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)

@@ -2757,3 +2757,243 @@ Invoking: MacOS X C++ Linker
 g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
 Finished building target: Reversing a String
  
+17:29:19 **** Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
+Finished building: ../src/References.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/References.o   
+Finished building target: References
+ 
+17:29:24 **** Incremental Build of configuration Debug for project References ****
+make all 
+make: Nothing to be done for `all'.
+18:02:35 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
+Finished building: ../src/References.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/References.o   
+Finished building target: References
+ 
+18:02:46 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
+Finished building: ../src/References.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/References.o   
+Finished building target: References
+ 
+18:04:03 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
+Finished building: ../src/References.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/References.o   
+Finished building target: References
+ 
+18:04:32 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
+Finished building: ../src/References.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/References.o   
+Finished building target: References
+ 
+18:07:31 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
+../src/References.cpp:13:20: error: expected ';' after expression
+        fruit += " banana"
+                          ^
+                          ;
+1 error generated.
+make: *** [src/References.o] Error 1
+18:07:48 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
+../src/References.cpp:13:27: error: expected ';' after expression
+        fruit = fruit + " banana"
+                                 ^
+                                 ;
+1 error generated.
+make: *** [src/References.o] Error 1
+18:08:06 **** Incremental Build of configuration Debug for project References ****
+make all 
+Building file: ../src/References.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
+Finished building: ../src/References.cpp
+ 
+Building target: References
+Invoking: MacOS X C++ Linker
+g++  -o "References"  ./src/References.o   
+Finished building target: References
+ 
+18:11:14 **** Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+../src/Const.cpp:25:2: error: expected '}'
+}
+ ^
+../src/Const.cpp:12:14: note: to match this '{'
+class Animal {
+             ^
+../src/Const.cpp:25:2: error: expected ';' after class
+}
+ ^
+ ;
+2 errors generated.
+make: *** [src/Const.o] Error 1
+18:11:53 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+18:11:56 **** Incremental Build of configuration Debug for project Const ****
+make all 
+make: Nothing to be done for `all'.
+18:15:33 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+18:16:22 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+18:22:37 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+../src/Const.cpp:34:6: error: redefinition of 'value'
+        int value = 8;
+            ^
+../src/Const.cpp:25:6: note: previous definition is here
+        int value = 7;
+            ^
+1 error generated.
+make: *** [src/Const.o] Error 1
+18:22:57 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+18:23:07 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+18:28:04 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+../src/Const.cpp:38:10: error: read-only variable is not assignable
+        *pValue = 12;
+        ~~~~~~~ ^
+1 error generated.
+make: *** [src/Const.o] Error 1
+18:28:14 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+18:28:24 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+../src/Const.cpp:36:6: warning: unused variable 'number' [-Wunused-variable]
+        int number = 11;
+            ^
+1 warning generated.
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
+18:28:30 **** Incremental Build of configuration Debug for project Const ****
+make all 
+Building file: ../src/Const.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
+Finished building: ../src/Const.cpp
+ 
+Building target: Const
+Invoking: MacOS X C++ Linker
+g++  -o "Const"  ./src/Const.o   
+Finished building target: Const
+ 
