@@ -2527,3 +2527,233 @@ Invoking: MacOS X C++ Linker
 g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
 Finished building target: Pointer Arithmetic
  
+15:35:31 **** Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+Finished building: ../src/Char Arrays.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
+Finished building target: Char Arrays
+ 
+15:35:37 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+make: Nothing to be done for `all'.
+15:57:13 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+../src/Char Arrays.cpp:32:6: error: expected ';' after expression
+                k++
+                   ^
+                   ;
+1 error generated.
+make: *** [src/Char Arrays.o] Error 1
+15:57:23 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+Finished building: ../src/Char Arrays.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
+Finished building target: Char Arrays
+ 
+16:13:00 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+../src/Char Arrays.cpp:21:19: error: expected expression
+                cout << fat[i]; << flush;
+                                ^
+1 error generated.
+make: *** [src/Char Arrays.o] Error 1
+16:13:14 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+../src/Char Arrays.cpp:21:11: error: indirection requires pointer operand ('int' invalid)
+                cout << *fat[i]; << flush;
+                        ^~~~~~~
+../src/Char Arrays.cpp:21:20: error: expected expression
+                cout << *fat[i]; << flush;
+                                 ^
+2 errors generated.
+make: *** [src/Char Arrays.o] Error 1
+16:13:23 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+../src/Char Arrays.cpp:21:11: error: indirection requires pointer operand ('int' invalid)
+                cout << *fat[i] << flush;
+                        ^~~~~~~
+1 error generated.
+make: *** [src/Char Arrays.o] Error 1
+16:13:29 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+Finished building: ../src/Char Arrays.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
+Finished building target: Char Arrays
+ 
+16:13:39 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+Finished building: ../src/Char Arrays.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
+Finished building target: Char Arrays
+ 
+16:15:57 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+Finished building: ../src/Char Arrays.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
+Finished building target: Char Arrays
+ 
+16:16:09 **** Incremental Build of configuration Debug for project Char Arrays ****
+make all 
+Building file: ../src/Char Arrays.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
+Finished building: ../src/Char Arrays.cpp
+ 
+Building target: Char Arrays
+Invoking: MacOS X C++ Linker
+g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
+Finished building target: Char Arrays
+ 
+16:38:42 **** Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+Finished building: ../src/Reversing a String.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
+Finished building target: Reversing a String
+ 
+16:39:32 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+make: Nothing to be done for `all'.
+16:43:28 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+Finished building: ../src/Reversing a String.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
+Finished building target: Reversing a String
+ 
+16:58:46 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+../src/Reversing a String.cpp:23:8: error: redefinition of 'pStart'
+        char *pStart = text;
+              ^
+../src/Reversing a String.cpp:18:8: note: previous definition is here
+        char *pStart = text;
+              ^
+../src/Reversing a String.cpp:32:8: error: redefinition of 'pEnd'
+        char *pEnd = &text[4];
+              ^
+../src/Reversing a String.cpp:20:8: note: previous definition is here
+        char *pEnd = text + nChars - 1;
+              ^
+2 errors generated.
+make: *** [src/Reversing a String.o] Error 1
+16:59:19 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+Finished building: ../src/Reversing a String.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
+Finished building target: Reversing a String
+ 
+17:16:15 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+../src/Reversing a String.cpp:31:8: error: redefinition of 'pEnd'
+        char *pEnd = &text[4];
+              ^
+../src/Reversing a String.cpp:20:8: note: previous definition is here
+        char *pEnd = text + nChars - 1;
+              ^
+1 error generated.
+make: *** [src/Reversing a String.o] Error 1
+17:16:38 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+../src/Reversing a String.cpp:18:8: warning: unused variable 'pStart' [-Wunused-variable]
+        char *pStart = text;
+              ^
+1 warning generated.
+Finished building: ../src/Reversing a String.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
+Finished building target: Reversing a String
+ 
+17:20:22 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+Finished building: ../src/Reversing a String.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
+Finished building target: Reversing a String
+ 
+17:21:05 **** Incremental Build of configuration Debug for project Reversing a String ****
+make all 
+Building file: ../src/Reversing a String.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
+Finished building: ../src/Reversing a String.cpp
+ 
+Building target: Reversing a String
+Invoking: MacOS X C++ Linker
+g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
+Finished building target: Reversing a String
+ 

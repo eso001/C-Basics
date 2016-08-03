@@ -594,3 +594,9 @@ java.io.FileNotFoundException: /Users/ericso0303/Documents/workspace/Pointer Ari
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-08-02 15:31:51.491
+!MESSAGE Indexed 'Char Arrays' (1 sources, 0 headers) in 0.05 sec: 1 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (75%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-08-02 16:31:21.835
+!MESSAGE Indexed 'Reversing a String' (1 sources, 173 headers) in 3.34 sec: 22,161 declarations; 44,990 references; 0 unresolved inclusions; 9 syntax errors; 55 unresolved names (0.082%)
