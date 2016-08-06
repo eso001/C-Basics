@@ -1,2999 +1,587 @@
-10:27:09 **** Incremental Build of configuration Debug for project comparingFloats ****
+14:46:31 **** Build of configuration Debug for project Namespaces ****
 make all 
-Building file: ../src/comparingFloats.cpp
+Building file: ../src/Namespaces.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/comparingFloats.d" -MT"src/comparingFloats.o" -o "src/comparingFloats.o" "../src/comparingFloats.cpp"
-../src/comparingFloats.cpp:21:10: error: use of undeclared identifier 'setprecision'
-        cout << setprecision(10) << value1 << endl;
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+Finished building: ../src/Namespaces.cpp
+ 
+Building target: Namespaces
+Invoking: MacOS X C++ Linker
+g++  -o "Namespaces"  ./src/Namespaces.o   
+Finished building target: Namespaces
+ 
+15:48:58 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Animals.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Animals.d" -MT"src/Animals.o" -o "src/Animals.o" "../src/Animals.cpp"
+Finished building: ../src/Animals.cpp
+ 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+Finished building: ../src/Namespaces.cpp
+ 
+Building target: Namespaces
+Invoking: MacOS X C++ Linker
+g++  -o "Namespaces"  ./src/Animals.o ./src/Cat.o ./src/Namespaces.o   
+Finished building target: Namespaces
+ 
+15:50:21 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+Finished building: ../src/Namespaces.cpp
+ 
+Building target: Namespaces
+Invoking: MacOS X C++ Linker
+g++  -o "Namespaces"  ./src/Animals.o ./src/Cat.o ./src/Namespaces.o   
+Finished building target: Namespaces
+ 
+15:50:42 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+../src/Namespaces.cpp:17:2: error: unknown type name 'Cat'; did you mean 'cats::Cat'?
+        Cat cat;
+        ^~~
+        cats::Cat
+../src/Cat.h:12:7: note: 'cats::Cat' declared here
+class Cat {
+      ^
+1 error generated.
+make: *** [src/Namespaces.o] Error 1
+15:51:09 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+Finished building: ../src/Namespaces.cpp
+ 
+Building target: Namespaces
+Invoking: MacOS X C++ Linker
+g++  -o "Namespaces"  ./src/Animals.o ./src/Cat.o ./src/Namespaces.o   
+Finished building target: Namespaces
+ 
+15:51:22 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+../src/Namespaces.cpp:15:17: error: expected namespace name
+using namespace evs;
                 ^
-1 error generated.
-make: *** [src/comparingFloats.o] Error 1
-10:27:13 **** Incremental Build of configuration Debug for project if ****
-make all 
-make: Nothing to be done for `all'.
-10:27:25 **** Incremental Build of configuration Debug for project comparingFloats ****
-make all 
-Building file: ../src/comparingFloats.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/comparingFloats.d" -MT"src/comparingFloats.o" -o "src/comparingFloats.o" "../src/comparingFloats.cpp"
-../src/comparingFloats.cpp:21:10: error: use of undeclared identifier 'setprecision'
-        cout << setprecision(10) << value1 << endl;
-                ^
-1 error generated.
-make: *** [src/comparingFloats.o] Error 1
-10:28:18 **** Incremental Build of configuration Debug for project comparingFloats ****
-make all 
-Building file: ../src/comparingFloats.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/comparingFloats.d" -MT"src/comparingFloats.o" -o "src/comparingFloats.o" "../src/comparingFloats.cpp"
-Finished building: ../src/comparingFloats.cpp
- 
-Building target: comparingFloats
-Invoking: MacOS X C++ Linker
-g++  -o "comparingFloats"  ./src/comparingFloats.o   
-Finished building target: comparingFloats
- 
-10:28:21 **** Incremental Build of configuration Debug for project comparingFloats ****
-make all 
-make: Nothing to be done for `all'.
-10:32:12 **** Build of configuration Debug for project complexConditions ****
-make all 
-Building file: ../src/complexConditions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/complexConditions.d" -MT"src/complexConditions.o" -o "src/complexConditions.o" "../src/complexConditions.cpp"
-../src/complexConditions.cpp:22:6: warning: unused variable 'value2' [-Wunused-variable]
-        int value2 = 4;
-            ^
-1 warning generated.
-Finished building: ../src/complexConditions.cpp
- 
-Building target: complexConditions
-Invoking: MacOS X C++ Linker
-g++  -o "complexConditions"  ./src/complexConditions.o   
-Finished building target: complexConditions
- 
-10:32:16 **** Incremental Build of configuration Debug for project complexConditions ****
-make all 
-make: Nothing to be done for `all'.
-10:32:22 **** Incremental Build of configuration Debug for project complexConditions ****
-make all 
-Building file: ../src/complexConditions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/complexConditions.d" -MT"src/complexConditions.o" -o "src/complexConditions.o" "../src/complexConditions.cpp"
-../src/complexConditions.cpp:22:6: warning: unused variable 'value2' [-Wunused-variable]
-        int value2 = 4;
-            ^
-1 warning generated.
-Finished building: ../src/complexConditions.cpp
- 
-Building target: complexConditions
-Invoking: MacOS X C++ Linker
-g++  -o "complexConditions"  ./src/complexConditions.o   
-Finished building target: complexConditions
- 
-10:33:36 **** Incremental Build of configuration Debug for project complexConditions ****
-make all 
-Building file: ../src/complexConditions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/complexConditions.d" -MT"src/complexConditions.o" -o "src/complexConditions.o" "../src/complexConditions.cpp"
-Finished building: ../src/complexConditions.cpp
- 
-Building target: complexConditions
-Invoking: MacOS X C++ Linker
-g++  -o "complexConditions"  ./src/complexConditions.o   
-Finished building target: complexConditions
- 
-10:33:44 **** Incremental Build of configuration Debug for project complexConditions ****
-make all 
-Building file: ../src/complexConditions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/complexConditions.d" -MT"src/complexConditions.o" -o "src/complexConditions.o" "../src/complexConditions.cpp"
-Finished building: ../src/complexConditions.cpp
- 
-Building target: complexConditions
-Invoking: MacOS X C++ Linker
-g++  -o "complexConditions"  ./src/complexConditions.o   
-Finished building target: complexConditions
- 
-10:34:27 **** Incremental Build of configuration Debug for project complexConditions ****
-make all 
-Building file: ../src/complexConditions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/complexConditions.d" -MT"src/complexConditions.o" -o "src/complexConditions.o" "../src/complexConditions.cpp"
-Finished building: ../src/complexConditions.cpp
- 
-Building target: complexConditions
-Invoking: MacOS X C++ Linker
-g++  -o "complexConditions"  ./src/complexConditions.o   
-Finished building target: complexConditions
- 
-10:34:36 **** Incremental Build of configuration Debug for project complexConditions ****
-make all 
-Building file: ../src/complexConditions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/complexConditions.d" -MT"src/complexConditions.o" -o "src/complexConditions.o" "../src/complexConditions.cpp"
-Finished building: ../src/complexConditions.cpp
- 
-Building target: complexConditions
-Invoking: MacOS X C++ Linker
-g++  -o "complexConditions"  ./src/complexConditions.o   
-Finished building target: complexConditions
- 
-10:34:43 **** Incremental Build of configuration Debug for project complexConditions ****
-make all 
-Building file: ../src/complexConditions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/complexConditions.d" -MT"src/complexConditions.o" -o "src/complexConditions.o" "../src/complexConditions.cpp"
-Finished building: ../src/complexConditions.cpp
- 
-Building target: complexConditions
-Invoking: MacOS X C++ Linker
-g++  -o "complexConditions"  ./src/complexConditions.o   
-Finished building target: complexConditions
- 
-11:02:38 **** Build of configuration Debug for project while ****
-make all 
-Building file: ../src/while.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while.d" -MT"src/while.o" -o "src/while.o" "../src/while.cpp"
-Finished building: ../src/while.cpp
- 
-Building target: while
-Invoking: MacOS X C++ Linker
-g++  -o "while"  ./src/while.o   
-Finished building target: while
- 
-11:02:42 **** Incremental Build of configuration Debug for project while ****
-make all 
-make: Nothing to be done for `all'.
-11:02:51 **** Incremental Build of configuration Debug for project while ****
-make all 
-Building file: ../src/while.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while.d" -MT"src/while.o" -o "src/while.o" "../src/while.cpp"
-Finished building: ../src/while.cpp
- 
-Building target: while
-Invoking: MacOS X C++ Linker
-g++  -o "while"  ./src/while.o   
-Finished building target: while
- 
-11:03:34 **** Incremental Build of configuration Debug for project while ****
-make all 
-Building file: ../src/while.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while.d" -MT"src/while.o" -o "src/while.o" "../src/while.cpp"
-Finished building: ../src/while.cpp
- 
-Building target: while
-Invoking: MacOS X C++ Linker
-g++  -o "while"  ./src/while.o   
-Finished building target: while
- 
-11:03:48 **** Incremental Build of configuration Debug for project while ****
-make all 
-Building file: ../src/while.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while.d" -MT"src/while.o" -o "src/while.o" "../src/while.cpp"
-Finished building: ../src/while.cpp
- 
-Building target: while
-Invoking: MacOS X C++ Linker
-g++  -o "while"  ./src/while.o   
-Finished building target: while
- 
-11:10:01 **** Incremental Build of configuration Debug for project while ****
-make all 
-Building file: ../src/while.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while.d" -MT"src/while.o" -o "src/while.o" "../src/while.cpp"
-../src/while.cpp:36:15: error: expected ';' after expression
-                cin >> input
-                            ^
-                            ;
-1 error generated.
-make: *** [src/while.o] Error 1
-11:10:17 **** Incremental Build of configuration Debug for project while ****
-make all 
-Building file: ../src/while.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while.d" -MT"src/while.o" -o "src/while.o" "../src/while.cpp"
-Finished building: ../src/while.cpp
- 
-Building target: while
-Invoking: MacOS X C++ Linker
-g++  -o "while"  ./src/while.o   
-Finished building target: while
- 
-11:12:09 **** Incremental Build of configuration Debug for project while ****
-make all 
-Building file: ../src/while.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/while.d" -MT"src/while.o" -o "src/while.o" "../src/while.cpp"
-Finished building: ../src/while.cpp
- 
-Building target: while
-Invoking: MacOS X C++ Linker
-g++  -o "while"  ./src/while.o   
-Finished building target: while
- 
-11:15:40 **** Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:15:46 **** Incremental Build of configuration Debug for project for ****
-make all 
-make: Nothing to be done for `all'.
-11:18:56 **** Incremental Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:20:09 **** Incremental Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:20:28 **** Incremental Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:20:34 **** Incremental Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:20:45 **** Incremental Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:21:02 **** Incremental Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:27:54 **** Incremental Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:28:38 **** Incremental Build of configuration Debug for project for ****
-make all 
-Building file: ../src/for.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/for.d" -MT"src/for.o" -o "src/for.o" "../src/for.cpp"
-Finished building: ../src/for.cpp
- 
-Building target: for
-Invoking: MacOS X C++ Linker
-g++  -o "for"  ./src/for.o   
-Finished building target: for
- 
-11:35:48 **** Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-../src/arrays.cpp:17:12: warning: equality comparison result unused [-Wunused-comparison]
-        values[1] == 23;
-        ~~~~~~~~~~^~~~~
-../src/arrays.cpp:17:12: note: use '=' to turn this equality comparison into an assignment
-        values[1] == 23;
-                  ^~
-                  =
-../src/arrays.cpp:18:12: warning: equality comparison result unused [-Wunused-comparison]
-        values[2] == 29;
-        ~~~~~~~~~~^~~~~
-../src/arrays.cpp:18:12: note: use '=' to turn this equality comparison into an assignment
-        values[2] == 29;
-                  ^~
-                  =
-2 warnings generated.
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-11:35:55 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-make: Nothing to be done for `all'.
-11:36:19 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-../src/arrays.cpp:17:12: warning: equality comparison result unused [-Wunused-comparison]
-        values[1] == 23;
-        ~~~~~~~~~~^~~~~
-../src/arrays.cpp:17:12: note: use '=' to turn this equality comparison into an assignment
-        values[1] == 23;
-                  ^~
-                  =
-../src/arrays.cpp:18:12: warning: equality comparison result unused [-Wunused-comparison]
-        values[2] == 29;
-        ~~~~~~~~~~^~~~~
-../src/arrays.cpp:18:12: note: use '=' to turn this equality comparison into an assignment
-        values[2] == 29;
-                  ^~
-                  =
-2 warnings generated.
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-11:36:48 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-11:37:50 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-11:38:56 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-11:42:38 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-../src/arrays.cpp:32:34: error: use of undeclared identifier 'i'
-                cout << "Element at index " << i << ": " << numbers[j] << endl;
-                                               ^
-../src/arrays.cpp:41:34: error: use of undeclared identifier 'i'
-                cout << "Element at index " << i << ": " << numbers[j] << endl;
-                                               ^
-2 errors generated.
-make: *** [src/arrays.o] Error 1
-11:53:42 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-../src/arrays.cpp:39:6: warning: unused variable 'numberArray' [-Wunused-variable]
-        int numberArray[8] = {};
-            ^
-1 warning generated.
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-11:54:13 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-11:58:36 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-12:04:57 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-12:05:29 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-12:05:45 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-12:06:13 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-12:06:30 **** Incremental Build of configuration Debug for project arrays ****
-make all 
-Building file: ../src/arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/arrays.d" -MT"src/arrays.o" -o "src/arrays.o" "../src/arrays.cpp"
-Finished building: ../src/arrays.cpp
- 
-Building target: arrays
-Invoking: MacOS X C++ Linker
-g++  -o "arrays"  ./src/arrays.o   
-Finished building target: arrays
- 
-12:10:11 **** Build of configuration Debug for project multidimensionalArrays ****
-make all 
-Building file: ../src/multidimensionalArrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multidimensionalArrays.d" -MT"src/multidimensionalArrays.o" -o "src/multidimensionalArrays.o" "../src/multidimensionalArrays.cpp"
-Finished building: ../src/multidimensionalArrays.cpp
- 
-Building target: multidimensionalArrays
-Invoking: MacOS X C++ Linker
-g++  -o "multidimensionalArrays"  ./src/multidimensionalArrays.o   
-Finished building target: multidimensionalArrays
- 
-12:10:16 **** Incremental Build of configuration Debug for project multidimensionalArrays ****
-make all 
-make: Nothing to be done for `all'.
-12:10:55 **** Incremental Build of configuration Debug for project multidimensionalArrays ****
-make all 
-Building file: ../src/multidimensionalArrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multidimensionalArrays.d" -MT"src/multidimensionalArrays.o" -o "src/multidimensionalArrays.o" "../src/multidimensionalArrays.cpp"
-Finished building: ../src/multidimensionalArrays.cpp
- 
-Building target: multidimensionalArrays
-Invoking: MacOS X C++ Linker
-g++  -o "multidimensionalArrays"  ./src/multidimensionalArrays.o   
-Finished building target: multidimensionalArrays
- 
-12:14:31 **** Incremental Build of configuration Debug for project multidimensionalArrays ****
-make all 
-Building file: ../src/multidimensionalArrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multidimensionalArrays.d" -MT"src/multidimensionalArrays.o" -o "src/multidimensionalArrays.o" "../src/multidimensionalArrays.cpp"
-Finished building: ../src/multidimensionalArrays.cpp
- 
-Building target: multidimensionalArrays
-Invoking: MacOS X C++ Linker
-g++  -o "multidimensionalArrays"  ./src/multidimensionalArrays.o   
-Finished building target: multidimensionalArrays
- 
-12:16:11 **** Build of configuration Debug for project sizeof ****
-make all 
-Building file: ../src/sizeof.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sizeof.d" -MT"src/sizeof.o" -o "src/sizeof.o" "../src/sizeof.cpp"
-../src/sizeof.cpp:14:6: error: excess elements in scalar initializer
-        int values = {4, 7, 3, 4};
-            ^          ~~~~~~~~~~
-1 error generated.
-make: *** [src/sizeof.o] Error 1
-12:16:42 **** Incremental Build of configuration Debug for project sizeof ****
-make all 
-Building file: ../src/sizeof.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sizeof.d" -MT"src/sizeof.o" -o "src/sizeof.o" "../src/sizeof.cpp"
-../src/sizeof.cpp:14:6: error: excess elements in scalar initializer
-        int values = {4, 7, 3, 4};
-            ^          ~~~~~~~~~~
-1 error generated.
-make: *** [src/sizeof.o] Error 1
-12:16:53 **** Incremental Build of configuration Debug for project sizeof ****
-make all 
-Building file: ../src/sizeof.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sizeof.d" -MT"src/sizeof.o" -o "src/sizeof.o" "../src/sizeof.cpp"
-Finished building: ../src/sizeof.cpp
- 
-Building target: sizeof
-Invoking: MacOS X C++ Linker
-g++  -o "sizeof"  ./src/sizeof.o   
-Finished building target: sizeof
- 
-12:17:44 **** Incremental Build of configuration Debug for project sizeof ****
-make all 
-Building file: ../src/sizeof.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sizeof.d" -MT"src/sizeof.o" -o "src/sizeof.o" "../src/sizeof.cpp"
-Finished building: ../src/sizeof.cpp
- 
-Building target: sizeof
-Invoking: MacOS X C++ Linker
-g++  -o "sizeof"  ./src/sizeof.o   
-Finished building target: sizeof
- 
-12:17:57 **** Incremental Build of configuration Debug for project sizeof ****
-make all 
-Building file: ../src/sizeof.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sizeof.d" -MT"src/sizeof.o" -o "src/sizeof.o" "../src/sizeof.cpp"
-Finished building: ../src/sizeof.cpp
- 
-Building target: sizeof
-Invoking: MacOS X C++ Linker
-g++  -o "sizeof"  ./src/sizeof.o   
-Finished building target: sizeof
- 
-12:19:08 **** Incremental Build of configuration Debug for project multidimensionalArrays ****
-make all 
-Building file: ../src/multidimensionalArrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multidimensionalArrays.d" -MT"src/multidimensionalArrays.o" -o "src/multidimensionalArrays.o" "../src/multidimensionalArrays.cpp"
-Finished building: ../src/multidimensionalArrays.cpp
- 
-Building target: multidimensionalArrays
-Invoking: MacOS X C++ Linker
-g++  -o "multidimensionalArrays"  ./src/multidimensionalArrays.o   
-Finished building target: multidimensionalArrays
- 
-12:19:54 **** Incremental Build of configuration Debug for project multidimensionalArrays ****
-make all 
-make: Nothing to be done for `all'.
-12:23:17 **** Incremental Build of configuration Debug for project multidimensionalArrays ****
-make all 
-Building file: ../src/multidimensionalArrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multidimensionalArrays.d" -MT"src/multidimensionalArrays.o" -o "src/multidimensionalArrays.o" "../src/multidimensionalArrays.cpp"
-Finished building: ../src/multidimensionalArrays.cpp
- 
-Building target: multidimensionalArrays
-Invoking: MacOS X C++ Linker
-g++  -o "multidimensionalArrays"  ./src/multidimensionalArrays.o   
-Finished building target: multidimensionalArrays
- 
-12:26:38 **** Build of configuration Debug for project switch ****
-make all 
-Building file: ../src/switch.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.cpp"
-Finished building: ../src/switch.cpp
- 
-Building target: switch
-Invoking: MacOS X C++ Linker
-g++  -o "switch"  ./src/switch.o   
-Finished building target: switch
- 
-12:27:13 **** Incremental Build of configuration Debug for project switch ****
-make all 
-Building file: ../src/switch.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.cpp"
-Finished building: ../src/switch.cpp
- 
-Building target: switch
-Invoking: MacOS X C++ Linker
-g++  -o "switch"  ./src/switch.o   
-Finished building target: switch
- 
-12:33:47 **** Incremental Build of configuration Debug for project switch ****
-make all 
-Building file: ../src/switch.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.cpp"
-../src/switch.cpp:36:3: error: statement requires expression of integer type ('string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') invalid)
-                switch(pokemon) {
-                ^      ~~~~~~~
-../src/switch.cpp:37:8: error: expression is not an integral constant expression
-                case "pidgey":
-                     ^~~~~~~~
-../src/switch.cpp:40:8: error: expression is not an integral constant expression
-                case "psyduck":
-                     ^~~~~~~~~
-3 errors generated.
-make: *** [src/switch.o] Error 1
-12:35:28 **** Incremental Build of configuration Debug for project switch ****
-make all 
-Building file: ../src/switch.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/switch.d" -MT"src/switch.o" -o "src/switch.o" "../src/switch.cpp"
-Finished building: ../src/switch.cpp
- 
-Building target: switch
-Invoking: MacOS X C++ Linker
-g++  -o "switch"  ./src/switch.o   
-Finished building target: switch
- 
-01:03:40 **** Build of configuration Debug for project functions ****
-make all 
-Building file: ../src/functions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
-Finished building: ../src/functions.cpp
- 
-Building target: functions
-Invoking: MacOS X C++ Linker
-g++  -o "functions"  ./src/functions.o   
-Finished building target: functions
- 
-01:04:22 **** Incremental Build of configuration Debug for project functions ****
-make all 
-Building file: ../src/functions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
-Finished building: ../src/functions.cpp
- 
-Building target: functions
-Invoking: MacOS X C++ Linker
-g++  -o "functions"  ./src/functions.o   
-Finished building target: functions
- 
-01:04:51 **** Incremental Build of configuration Debug for project functions ****
-make all 
-Building file: ../src/functions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
-Finished building: ../src/functions.cpp
- 
-Building target: functions
-Invoking: MacOS X C++ Linker
-g++  -o "functions"  ./src/functions.o   
-Finished building target: functions
- 
-01:04:56 **** Incremental Build of configuration Debug for project functions ****
-make all 
-make: Nothing to be done for `all'.
-01:15:34 **** Incremental Build of configuration Debug for project functions ****
-make all 
-Building file: ../src/functions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
-../src/functions.cpp:22:2: error: void function 'getInput' should not return a value [-Wreturn-type]
-        return input;
-        ^      ~~~~~
-../src/functions.cpp:43:6: error: cannot initialize a variable of type 'int' with an rvalue of type 'void'
-        int selection = getInput();
-            ^           ~~~~~~~~~~
-2 errors generated.
-make: *** [src/functions.o] Error 1
-01:16:34 **** Incremental Build of configuration Debug for project functions ****
-make all 
-Building file: ../src/functions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
-../src/functions.cpp:22:2: error: void function 'getInput' should not return a value [-Wreturn-type]
-        return input;
-        ^      ~~~~~
-../src/functions.cpp:43:6: error: cannot initialize a variable of type 'int' with an rvalue of type 'void'
-        int selection = getInput();
-            ^           ~~~~~~~~~~
-2 errors generated.
-make: *** [src/functions.o] Error 1
-01:18:07 **** Incremental Build of configuration Debug for project functions ****
-make all 
-Building file: ../src/functions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
-Finished building: ../src/functions.cpp
- 
-Building target: functions
-Invoking: MacOS X C++ Linker
-g++  -o "functions"  ./src/functions.o   
-Finished building target: functions
- 
-01:19:26 **** Incremental Build of configuration Debug for project functions ****
-make all 
-Building file: ../src/functions.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/functions.d" -MT"src/functions.o" -o "src/functions.o" "../src/functions.cpp"
-Finished building: ../src/functions.cpp
- 
-Building target: functions
-Invoking: MacOS X C++ Linker
-g++  -o "functions"  ./src/functions.o   
-Finished building target: functions
- 
-01:40:59 **** Build of configuration Debug for project prototypesAndIncludes ****
-make all 
-Building file: ../src/prototypesAndIncludes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prototypesAndIncludes.d" -MT"src/prototypesAndIncludes.o" -o "src/prototypesAndIncludes.o" "../src/prototypesAndIncludes.cpp"
-Finished building: ../src/prototypesAndIncludes.cpp
- 
-Building target: prototypesAndIncludes
-Invoking: MacOS X C++ Linker
-g++  -o "prototypesAndIncludes"  ./src/prototypesAndIncludes.o   
-Finished building target: prototypesAndIncludes
- 
-01:41:03 **** Incremental Build of configuration Debug for project prototypesAndIncludes ****
-make all 
-make: Nothing to be done for `all'.
-01:41:19 **** Incremental Build of configuration Debug for project prototypesAndIncludes ****
-make all 
-Building file: ../src/prototypesAndIncludes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prototypesAndIncludes.d" -MT"src/prototypesAndIncludes.o" -o "src/prototypesAndIncludes.o" "../src/prototypesAndIncludes.cpp"
-../src/prototypesAndIncludes.cpp:19:12: error: no matching function for call to 'multiplyByThree'
-        int num = multiplyByThree(4);
-                  ^~~~~~~~~~~~~~~
-../src/utils.h:12:5: note: candidate function not viable: requires 0 arguments, but 1 was provided
-int multiplyByThree();
-    ^
-1 error generated.
-make: *** [src/prototypesAndIncludes.o] Error 1
-01:41:35 **** Incremental Build of configuration Debug for project prototypesAndIncludes ****
-make all 
-Building file: ../src/prototypesAndIncludes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/prototypesAndIncludes.d" -MT"src/prototypesAndIncludes.o" -o "src/prototypesAndIncludes.o" "../src/prototypesAndIncludes.cpp"
-Finished building: ../src/prototypesAndIncludes.cpp
- 
-Building target: prototypesAndIncludes
-Invoking: MacOS X C++ Linker
-g++  -o "prototypesAndIncludes"  ./src/prototypesAndIncludes.o   
-Finished building target: prototypesAndIncludes
- 
-01:42:52 **** Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-Finished building: ../src/Classes.cpp
- 
-Building target: Classes
-Invoking: MacOS X C++ Linker
-g++  -o "Classes"  ./src/Classes.o   
-Finished building target: Classes
- 
-01:42:58 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-make: Nothing to be done for `all'.
-01:43:09 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-Finished building: ../src/Classes.cpp
- 
-Building target: Classes
-Invoking: MacOS X C++ Linker
-g++  -o "Classes"  ./src/Classes.o   
-Finished building target: Classes
- 
-01:47:17 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-../src/Classes.cpp:14:2: error: use of undeclared identifier 'speak'
-        speak();
-        ^
-1 error generated.
-make: *** [src/Classes.o] Error 1
-01:48:01 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-Finished building: ../src/Classes.cpp
- 
-Building target: Classes
-Invoking: MacOS X C++ Linker
-g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
-Finished building target: Classes
- 
-01:48:42 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-../src/Classes.cpp:15:2: error: use of undeclared identifier 'speak'
-        speak();
-        ^
-1 error generated.
-make: *** [src/Classes.o] Error 1
-01:49:03 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-../src/Classes.cpp:15:2: error: use of undeclared identifier 'speak'
-        speak();
-        ^
-1 error generated.
-make: *** [src/Classes.o] Error 1
-01:49:23 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-Finished building: ../src/Classes.cpp
- 
-Building target: Classes
-Invoking: MacOS X C++ Linker
-g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
-Finished building target: Classes
- 
-01:53:21 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-Finished building: ../src/Classes.cpp
- 
-Building target: Classes
-Invoking: MacOS X C++ Linker
-g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
-Finished building target: Classes
- 
-01:58:42 **** Incremental Build of configuration Debug for project Classes ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Classes.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Classes.d" -MT"src/Classes.o" -o "src/Classes.o" "../src/Classes.cpp"
-Finished building: ../src/Classes.cpp
- 
-Building target: Classes
-Invoking: MacOS X C++ Linker
-g++  -o "Classes"  ./src/Cat.o ./src/Classes.o   
-Finished building target: Classes
- 
-02:01:56 **** Build of configuration Debug for project DataMembers ****
-make all 
-Building file: ../src/DataMembers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
-Finished building: ../src/DataMembers.cpp
- 
-Building target: DataMembers
-Invoking: MacOS X C++ Linker
-g++  -o "DataMembers"  ./src/DataMembers.o   
-Finished building target: DataMembers
- 
-02:05:48 **** Incremental Build of configuration Debug for project DataMembers ****
-make all 
-Building file: ../src/DataMembers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
-In file included from ../src/DataMembers.cpp:10:
-../src/Dog.h:12:8: error: expected ':'
-        public
-              ^
-              :
-../src/DataMembers.cpp:15:6: warning: unused variable 'dog' [-Wunused-variable]
-        Dog dog;
-            ^
-1 warning and 1 error generated.
-make: *** [src/DataMembers.o] Error 1
-02:07:34 **** Incremental Build of configuration Debug for project DataMembers ****
-make all 
-Building file: ../src/DataMembers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
-Finished building: ../src/DataMembers.cpp
- 
-Building file: ../src/Dog.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Dog.d" -MT"src/Dog.o" -o "src/Dog.o" "../src/Dog.cpp"
-Finished building: ../src/Dog.cpp
- 
-Building target: DataMembers
-Invoking: MacOS X C++ Linker
-g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
-Finished building target: DataMembers
- 
-02:10:18 **** Incremental Build of configuration Debug for project DataMembers ****
-make all 
-Building file: ../src/DataMembers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
-Finished building: ../src/DataMembers.cpp
- 
-Building file: ../src/Dog.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Dog.d" -MT"src/Dog.o" -o "src/Dog.o" "../src/Dog.cpp"
-Finished building: ../src/Dog.cpp
- 
-Building target: DataMembers
-Invoking: MacOS X C++ Linker
-g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
-Finished building target: DataMembers
- 
-02:10:29 **** Incremental Build of configuration Debug for project DataMembers ****
-make all 
-Building file: ../src/DataMembers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
-Finished building: ../src/DataMembers.cpp
- 
-Building target: DataMembers
-Invoking: MacOS X C++ Linker
-g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
-Finished building target: DataMembers
- 
-02:10:48 **** Incremental Build of configuration Debug for project DataMembers ****
-make all 
-Building file: ../src/DataMembers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
-Finished building: ../src/DataMembers.cpp
- 
-Building target: DataMembers
-Invoking: MacOS X C++ Linker
-g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
-Finished building target: DataMembers
- 
-02:14:17 **** Incremental Build of configuration Debug for project DataMembers ****
-make all 
-Building file: ../src/DataMembers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/DataMembers.d" -MT"src/DataMembers.o" -o "src/DataMembers.o" "../src/DataMembers.cpp"
-Finished building: ../src/DataMembers.cpp
- 
-Building file: ../src/Dog.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Dog.d" -MT"src/Dog.o" -o "src/Dog.o" "../src/Dog.cpp"
-Finished building: ../src/Dog.cpp
- 
-Building target: DataMembers
-Invoking: MacOS X C++ Linker
-g++  -o "DataMembers"  ./src/DataMembers.o ./src/Dog.o   
-Finished building target: DataMembers
- 
-21:06:38 **** Build of configuration Debug for project Data Members 2 ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Data Members 2.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
-../src/Data Members 2.cpp:14:6: warning: unused variable 'jim' [-Wunused-variable]
-        Cat jim;
-            ^
-1 warning generated.
-Finished building: ../src/Data Members 2.cpp
- 
-Building target: Data Members 2
-Invoking: MacOS X C++ Linker
-g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
-Finished building target: Data Members 2
- 
-21:09:36 **** Incremental Build of configuration Debug for project Data Members 2 ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Data Members 2.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
-Finished building: ../src/Data Members 2.cpp
- 
-Building target: Data Members 2
-Invoking: MacOS X C++ Linker
-g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
-Finished building target: Data Members 2
- 
-21:13:14 **** Incremental Build of configuration Debug for project Data Members 2 ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Data Members 2.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
-../src/Data Members 2.cpp:16:6: error: 'happy' is a private member of 'Cat'
-        jim.happy = false;
-            ^
-../src/Cat.h:13:7: note: declared private here
-        bool happy;
-             ^
-../src/Data Members 2.cpp:20:6: error: 'happy' is a private member of 'Cat'
-        bob.happy = true;
-            ^
-../src/Cat.h:13:7: note: declared private here
-        bool happy;
-             ^
-2 errors generated.
-make: *** [src/Data Members 2.o] Error 1
-21:15:20 **** Incremental Build of configuration Debug for project Data Members 2 ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Data Members 2.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
-Finished building: ../src/Data Members 2.cpp
- 
-Building target: Data Members 2
-Invoking: MacOS X C++ Linker
-g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
-Finished building target: Data Members 2
- 
-01:03:02 **** Incremental Build of configuration Debug for project Data Members 2 ****
-make all 
-Building file: ../src/Data Members 2.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Data Members 2.d" -MT"src/Data\ Members\ 2.d" -o "src/Data Members 2.o" "../src/Data Members 2.cpp"
-Finished building: ../src/Data Members 2.cpp
- 
-Building target: Data Members 2
-Invoking: MacOS X C++ Linker
-g++  -o "Data Members 2"  ./src/Cat.o ./src/Data\ Members\ 2.o   
-Finished building target: Data Members 2
- 
-01:06:31 **** Build of configuration Debug for project Constructors and Destructors ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Constructors and Destructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
-Finished building: ../src/Constructors and Destructors.cpp
- 
-Building target: Constructors and Destructors
-Invoking: MacOS X C++ Linker
-g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
-Finished building target: Constructors and Destructors
- 
-01:08:50 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Constructors and Destructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
-../src/Constructors and Destructors.cpp:10:17: warning: extra tokens at end of #include directive [-Wextra-tokens]
-#include "Cat.h";
-                ^
-                //
-1 warning generated.
-Finished building: ../src/Constructors and Destructors.cpp
- 
-Building target: Constructors and Destructors
-Invoking: MacOS X C++ Linker
-g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
-Finished building target: Constructors and Destructors
- 
-01:10:58 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-In file included from ../src/Cat.cpp:8:
-../src/Cat.h:13:13: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
-        bool happy = true;
-                   ^
-1 warning generated.
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Constructors and Destructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
-In file included from ../src/Constructors and Destructors.cpp:10:
-../src/Cat.h:13:13: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
-        bool happy = true;
-                   ^
-1 warning generated.
-Finished building: ../src/Constructors and Destructors.cpp
- 
-Building target: Constructors and Destructors
-Invoking: MacOS X C++ Linker
-g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
-Finished building target: Constructors and Destructors
- 
-01:14:06 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Constructors and Destructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
-Finished building: ../src/Constructors and Destructors.cpp
- 
-Building target: Constructors and Destructors
-Invoking: MacOS X C++ Linker
-g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
-Finished building target: Constructors and Destructors
- 
-01:15:41 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
-make all 
-Building file: ../src/Cat.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
-Finished building: ../src/Cat.cpp
- 
-Building file: ../src/Constructors and Destructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
-Finished building: ../src/Constructors and Destructors.cpp
- 
-Building target: Constructors and Destructors
-Invoking: MacOS X C++ Linker
-g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
-Finished building target: Constructors and Destructors
- 
-01:18:16 **** Incremental Build of configuration Debug for project Constructors and Destructors ****
-make all 
-Building file: ../src/Constructors and Destructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Constructors and Destructors.d" -MT"src/Constructors\ and\ Destructors.d" -o "src/Constructors and Destructors.o" "../src/Constructors and Destructors.cpp"
-Finished building: ../src/Constructors and Destructors.cpp
- 
-Building target: Constructors and Destructors
-Invoking: MacOS X C++ Linker
-g++  -o "Constructors and Destructors"  ./src/Cat.o ./src/Constructors\ and\ Destructors.o   
-Finished building target: Constructors and Destructors
- 
-01:28:17 **** Build of configuration Debug for project Getters and Setters ****
-make all 
-Building file: ../src/Getters and Setters.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
-../src/Getters and Setters.cpp:14:2: error: unknown type name 'Person'
-        Person person;
-        ^
-1 error generated.
-make: *** [src/Getters and Setters.o] Error 1
-01:28:41 **** Incremental Build of configuration Debug for project Getters and Setters ****
-make all 
-Building file: ../src/Getters and Setters.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
-Finished building: ../src/Getters and Setters.cpp
- 
-Building file: ../src/Person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
-Finished building: ../src/Person.cpp
- 
-Building target: Getters and Setters
-Invoking: MacOS X C++ Linker
-g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
-Finished building target: Getters and Setters
- 
-01:28:46 **** Incremental Build of configuration Debug for project Getters and Setters ****
-make all 
-make: Nothing to be done for `all'.
-01:31:16 **** Incremental Build of configuration Debug for project Getters and Setters ****
-make all 
-Building file: ../src/Getters and Setters.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
-Finished building: ../src/Getters and Setters.cpp
- 
-Building file: ../src/Person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
-Finished building: ../src/Person.cpp
- 
-Building target: Getters and Setters
-Invoking: MacOS X C++ Linker
-g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
-Finished building target: Getters and Setters
- 
-01:33:18 **** Incremental Build of configuration Debug for project Getters and Setters ****
-make all 
-Building file: ../src/Getters and Setters.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
-Finished building: ../src/Getters and Setters.cpp
- 
-Building file: ../src/Person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
-Finished building: ../src/Person.cpp
- 
-Building target: Getters and Setters
-Invoking: MacOS X C++ Linker
-g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
-Finished building target: Getters and Setters
- 
-01:33:42 **** Incremental Build of configuration Debug for project Getters and Setters ****
-make all 
-Building file: ../src/Getters and Setters.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Getters and Setters.d" -MT"src/Getters\ and\ Setters.d" -o "src/Getters and Setters.o" "../src/Getters and Setters.cpp"
-Finished building: ../src/Getters and Setters.cpp
- 
-Building target: Getters and Setters
-Invoking: MacOS X C++ Linker
-g++  -o "Getters and Setters"  ./src/Getters\ and\ Setters.o ./src/Person.o   
-Finished building target: Getters and Setters
- 
-01:36:45 **** Build of configuration Debug for project String Streams ****
-make all 
-Building file: ../src/String Streams.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
-../src/String Streams.cpp:17:44: error: invalid operands to binary expression ('std::__1::basic_string<char>' and 'int')
-        string info = "Name: " + name + ", age: " + age;
-                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3999:1: note: candidate template ignored: deduced conflicting types for parameter '_CharT' ('char' vs. 'int')
-operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, _CharT __rhs)
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:640:1: note: candidate template ignored: could not match 'reverse_iterator<type-parameter-0-0>' against 'int'
-operator+(typename reverse_iterator<_Iter>::difference_type __n, const reverse_iterator<_Iter>& __x)
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1044:1: note: candidate template ignored: could not match 'move_iterator<type-parameter-0-0>' against 'int'
-operator+(typename move_iterator<_Iter>::difference_type __n, const move_iterator<_Iter>& __x)
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/iterator:1400:1: note: candidate template ignored: could not match '__wrap_iter<type-parameter-0-0>' against 'int'
-operator+(typename __wrap_iter<_Iter>::difference_type __n,
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3951:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
-operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs,
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3964:1: note: candidate template ignored: could not match 'const _CharT *' against 'std::__1::basic_string<char>'
-operator+(const _CharT* __lhs , const basic_string<_CharT,_Traits,_Allocator>& __rhs)
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3976:1: note: candidate template ignored: could not match 'basic_string<type-parameter-0-0, type-parameter-0-1, type-parameter-0-2>' against 'int'
-operator+(_CharT __lhs, const basic_string<_CharT,_Traits,_Allocator>& __rhs)
-^
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/string:3987:1: note: candidate template ignored: could not match 'const _CharT *' against 'int'
-operator+(const basic_string<_CharT, _Traits, _Allocator>& __lhs, const _CharT* __rhs)
-^
-1 error generated.
-make: *** [src/String Streams.o] Error 1
-01:38:46 **** Incremental Build of configuration Debug for project String Streams ****
-make all 
-Building file: ../src/String Streams.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
-../src/String Streams.cpp:23:10: error: use of undeclared identifier 'info'
-        cout << info << endl;
-                ^
-1 error generated.
-make: *** [src/String Streams.o] Error 1
-01:40:44 **** Incremental Build of configuration Debug for project String Streams ****
-make all 
-Building file: ../src/String Streams.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
-Finished building: ../src/String Streams.cpp
- 
-Building target: String Streams
-Invoking: MacOS X C++ Linker
-g++  -o "String Streams"  ./src/String\ Streams.o   
-Finished building target: String Streams
- 
-01:40:50 **** Incremental Build of configuration Debug for project String Streams ****
-make all 
-make: Nothing to be done for `all'.
-01:42:05 **** Incremental Build of configuration Debug for project String Streams ****
-make all 
-Building file: ../src/String Streams.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
-Finished building: ../src/String Streams.cpp
- 
-Building target: String Streams
-Invoking: MacOS X C++ Linker
-g++  -o "String Streams"  ./src/String\ Streams.o   
-Finished building target: String Streams
- 
-01:42:34 **** Incremental Build of configuration Debug for project String Streams ****
-make all 
-Building file: ../src/String Streams.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/String Streams.d" -MT"src/String\ Streams.d" -o "src/String Streams.o" "../src/String Streams.cpp"
-Finished building: ../src/String Streams.cpp
- 
-Building target: String Streams
-Invoking: MacOS X C++ Linker
-g++  -o "String Streams"  ./src/String\ Streams.o   
-Finished building target: String Streams
- 
-20:57:45 **** Build of configuration Debug for project Overloading Constructors ****
-make all 
-Building file: ../src/Overloading Constructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading Constructors.d" -MT"src/Overloading\ Constructors.d" -o "src/Overloading Constructors.o" "../src/Overloading Constructors.cpp"
-../src/Overloading Constructors.cpp:13:2: error: unknown type name 'Person'
-        Person person1;
-        ^
-1 error generated.
-make: *** [src/Overloading Constructors.o] Error 1
-20:58:07 **** Incremental Build of configuration Debug for project Overloading Constructors ****
-make all 
-Building file: ../src/Overloading Constructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading Constructors.d" -MT"src/Overloading\ Constructors.d" -o "src/Overloading Constructors.o" "../src/Overloading Constructors.cpp"
-Finished building: ../src/Overloading Constructors.cpp
- 
-Building file: ../src/Person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
-Finished building: ../src/Person.cpp
- 
-Building target: Overloading Constructors
-Invoking: MacOS X C++ Linker
-g++  -o "Overloading Constructors"  ./src/Overloading\ Constructors.o ./src/Person.o   
-Finished building target: Overloading Constructors
- 
-21:03:06 **** Incremental Build of configuration Debug for project Overloading Constructors ****
-make all 
-Building file: ../src/Overloading Constructors.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Overloading Constructors.d" -MT"src/Overloading\ Constructors.d" -o "src/Overloading Constructors.o" "../src/Overloading Constructors.cpp"
-Finished building: ../src/Overloading Constructors.cpp
- 
-Building file: ../src/Person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Person.d" -MT"src/Person.o" -o "src/Person.o" "../src/Person.cpp"
-Finished building: ../src/Person.cpp
- 
-Building target: Overloading Constructors
-Invoking: MacOS X C++ Linker
-g++  -o "Overloading Constructors"  ./src/Overloading\ Constructors.o ./src/Person.o   
-Finished building target: Overloading Constructors
- 
-01:52:43 **** Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-Finished building: ../src/This.cpp
- 
-Building target: This
-Invoking: MacOS X C++ Linker
-g++  -o "This"  ./src/This.o   
-Finished building target: This
- 
-01:55:46 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-In file included from ../src/This.cpp:10:
-../src/Person.h:19:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
-        Person();
-        ^~~~~~
-        person
-../src/This.cpp:15:2: error: unknown type name 'Person'; did you mean 'person'?
-        Person person;
-        ^~~~~~
-        person
-../src/Person.h:14:7: note: 'person' declared here
-class person {
+../src/Namespaces.cpp:19:2: error: unknown type name 'Cat'; did you mean 'cats::Cat'?
+        Cat cat;
+        ^~~
+        cats::Cat
+../src/Cat.h:12:7: note: 'cats::Cat' declared here
+class Cat {
       ^
 2 errors generated.
-make: *** [src/This.o] Error 1
-01:57:38 **** Incremental Build of configuration Debug for project This ****
+make: *** [src/Namespaces.o] Error 1
+15:51:47 **** Incremental Build of configuration Debug for project Namespaces ****
 make all 
-Building file: ../src/This.cpp
+Building file: ../src/Namespaces.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-In file included from ../src/This.cpp:10:
-../src/Person.h:19:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
-        Person();
-        ^~~~~~
-        person
-../src/Person.h:20:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
-        Person(string name, int age);
-        ^~~~~~
-        person
-../src/This.cpp:15:2: error: unknown type name 'Person'; did you mean 'person'?
-        Person person;
-        ^~~~~~
-        person
-../src/Person.h:14:7: note: 'person' declared here
-class person {
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+Finished building: ../src/Namespaces.cpp
+ 
+Building target: Namespaces
+Invoking: MacOS X C++ Linker
+g++  -o "Namespaces"  ./src/Animals.o ./src/Cat.o ./src/Namespaces.o   
+Finished building target: Namespaces
+ 
+15:53:11 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+Finished building: ../src/Namespaces.cpp
+ 
+Building target: Namespaces
+Invoking: MacOS X C++ Linker
+g++  -o "Namespaces"  ./src/Animals.o ./src/Cat.o ./src/Namespaces.o   
+Finished building target: Namespaces
+ 
+15:56:30 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Animals.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Animals.d" -MT"src/Animals.o" -o "src/Animals.o" "../src/Animals.cpp"
+Finished building: ../src/Animals.cpp
+ 
+Building file: ../src/Cat.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Cat.d" -MT"src/Cat.o" -o "src/Cat.o" "../src/Cat.cpp"
+Finished building: ../src/Cat.cpp
+ 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+Finished building: ../src/Namespaces.cpp
+ 
+Building target: Namespaces
+Invoking: MacOS X C++ Linker
+g++  -o "Namespaces"  ./src/Animals.o ./src/Cat.o ./src/Namespaces.o   
+Finished building target: Namespaces
+ 
+15:57:28 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+../src/Namespaces.cpp:20:10: error: use of undeclared identifier 'cat'
+        cout << cat::CATNAME << endl;
+                ^
+1 error generated.
+make: *** [src/Namespaces.o] Error 1
+15:57:45 **** Incremental Build of configuration Debug for project Namespaces ****
+make all 
+Building file: ../src/Namespaces.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Namespaces.d" -MT"src/Namespaces.o" -o "src/Namespaces.o" "../src/Namespaces.cpp"
+Finished building: ../src/Namespaces.cpp
+ 
+Building target: Namespaces
+Invoking: MacOS X C++ Linker
+g++  -o "Namespaces"  ./src/Animals.o ./src/Cat.o ./src/Namespaces.o   
+Finished building target: Namespaces
+ 
+21:17:48 **** Build of configuration Debug for project Inheritance ****
+make all 
+Building file: ../src/Inheritance.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.o" -o "src/Inheritance.o" "../src/Inheritance.cpp"
+../src/Inheritance.cpp:16:7: error: redefinition of 'Animal'
+class Animal: public Animal {
       ^
-3 errors generated.
-make: *** [src/This.o] Error 1
-01:58:25 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-In file included from ../src/This.cpp:10:
-../src/person.h:19:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
-        Person();
-        ^~~~~~
-        person
-../src/person.h:20:2: error: missing return type for function 'Person'; did you mean the constructor name 'person'?
-        Person(string name, int age);
-        ^~~~~~
-        person
-../src/This.cpp:15:2: error: unknown type name 'Person'; did you mean 'person'?
-        Person person;
-        ^~~~~~
-        person
-../src/person.h:14:7: note: 'person' declared here
-class person {
+../src/Inheritance.cpp:12:7: note: previous definition is here
+class Animal {
       ^
-3 errors generated.
-make: *** [src/This.o] Error 1
-01:59:32 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-Finished building: ../src/This.cpp
- 
-Building file: ../src/person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
-Finished building: ../src/person.cpp
- 
-Building target: This
-Invoking: MacOS X C++ Linker
-g++  -o "This"  ./src/This.o ./src/person.o   
-Finished building target: This
- 
-02:01:19 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
-Finished building: ../src/person.cpp
- 
-Building target: This
-Invoking: MacOS X C++ Linker
-g++  -o "This"  ./src/This.o ./src/person.o   
-Finished building target: This
- 
-02:02:29 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-Finished building: ../src/This.cpp
- 
-Building file: ../src/person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
-Finished building: ../src/person.cpp
- 
-Building target: This
-Invoking: MacOS X C++ Linker
-g++  -o "This"  ./src/This.o ./src/person.o   
-Finished building target: This
- 
-02:04:49 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-Finished building: ../src/This.cpp
- 
-Building file: ../src/person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
-Finished building: ../src/person.cpp
- 
-Building target: This
-Invoking: MacOS X C++ Linker
-g++  -o "This"  ./src/This.o ./src/person.o   
-Finished building target: This
- 
-02:06:03 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-Finished building: ../src/This.cpp
- 
-Building file: ../src/person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
-Finished building: ../src/person.cpp
- 
-Building target: This
-Invoking: MacOS X C++ Linker
-g++  -o "This"  ./src/This.o ./src/person.o   
-Finished building target: This
- 
-02:06:34 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-../src/This.cpp:21:59: error: member reference type 'Person' is not a pointer; did you mean to use '.'?
-        cout << Eric.toString() << "; memory location: " << &Eric->name << endl;
-                                                             ~~~~^~
-                                                                 .
-../src/This.cpp:21:61: error: 'name' is a private member of 'Person'
-        cout << Eric.toString() << "; memory location: " << &Eric->name << endl;
-                                                                   ^
-../src/person.h:16:9: note: declared private here
-        string name;
-               ^
-2 errors generated.
-make: *** [src/This.o] Error 1
-02:34:18 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-Finished building: ../src/This.cpp
- 
-Building file: ../src/person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
-Finished building: ../src/person.cpp
- 
-Building target: This
-Invoking: MacOS X C++ Linker
-g++  -o "This"  ./src/This.o ./src/person.o   
-Finished building target: This
- 
-02:36:02 **** Incremental Build of configuration Debug for project This ****
-make all 
-Building file: ../src/This.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/This.d" -MT"src/This.o" -o "src/This.o" "../src/This.cpp"
-Finished building: ../src/This.cpp
- 
-Building file: ../src/person.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/person.d" -MT"src/person.o" -o "src/person.o" "../src/person.cpp"
-Finished building: ../src/person.cpp
- 
-Building target: This
-Invoking: MacOS X C++ Linker
-g++  -o "This"  ./src/This.o ./src/person.o   
-Finished building target: This
- 
-21:25:58 **** Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:27:26 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:28:22 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:28:56 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:31:34 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:32:11 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:34:23 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:34:41 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:40:27 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-../src/Pointers.cpp:32:2: error: no matching function for call to 'stringChanger'
-        stringChanger(cutie);
-        ^~~~~~~~~~~~~
-../src/Pointers.cpp:12:6: note: candidate function not viable: no known conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'string *' (aka 'basic_string<char, char_traits<char>, allocator<char> > *') for 1st argument; take the address of the argument with &
-void stringChanger(string *pstring){
-     ^
-1 error generated.
-make: *** [src/Pointers.o] Error 1
-21:40:55 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-../src/Pointers.cpp:32:16: error: indirection requires pointer operand ('string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') invalid)
-        stringChanger(*cutie);
-                      ^~~~~~
-1 error generated.
-make: *** [src/Pointers.o] Error 1
-21:41:08 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:41:48 **** Incremental Build of configuration Debug for project Pointers ****
-make all 
-Building file: ../src/Pointers.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers.d" -MT"src/Pointers.o" -o "src/Pointers.o" "../src/Pointers.cpp"
-Finished building: ../src/Pointers.cpp
- 
-Building target: Pointers
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers"  ./src/Pointers.o   
-Finished building target: Pointers
- 
-21:43:57 **** Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:44:03 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-make: Nothing to be done for `all'.
-21:44:10 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:44:36 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:44:44 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:45:06 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:45:39 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-../src/Arithmetic.cpp:18:15: warning: implicit conversion from 'double' to 'int' changes value from 7.3 to 7 [-Wliteral-conversion]
-        int value2 = 7.3;
-            ~~~~~~   ^~~
-../src/Arithmetic.cpp:18:6: warning: unused variable 'value2' [-Wunused-variable]
-        int value2 = 7.3;
-            ^
-2 warnings generated.
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:45:59 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-../src/Arithmetic.cpp:18:15: warning: implicit conversion from 'double' to 'int' changes value from 7.3 to 7 [-Wliteral-conversion]
-        int value2 = 7.3;
-            ~~~~~~   ^~~
-1 warning generated.
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:46:10 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:47:22 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:53:15 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-../src/Arithmetic.cpp:19:1: warning: control reaches end of non-void function [-Wreturn-type]
-}
-^
-1 warning generated.
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:53:36 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-../src/Arithmetic.cpp:19:1: warning: control reaches end of non-void function [-Wreturn-type]
-}
-^
-1 warning generated.
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:56:19 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-../src/Arithmetic.cpp:19:1: warning: control reaches end of non-void function [-Wreturn-type]
-}
-^
-1 warning generated.
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-21:56:58 **** Incremental Build of configuration Debug for project Arithmetic ****
-make all 
-Building file: ../src/Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Arithmetic.d" -MT"src/Arithmetic.o" -o "src/Arithmetic.o" "../src/Arithmetic.cpp"
-../src/Arithmetic.cpp:19:1: warning: control reaches end of non-void function [-Wreturn-type]
-}
-^
-1 warning generated.
-Finished building: ../src/Arithmetic.cpp
- 
-Building target: Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Arithmetic"  ./src/Arithmetic.o   
-Finished building target: Arithmetic
- 
-11:27:01 **** Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:27:38 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:30:05 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-../src/Pointers and Arrays.cpp:20:10: error: redefinition of 'pTexts'
-        string *pTexts = texts;
-                ^
-../src/Pointers and Arrays.cpp:16:10: note: previous definition is here
-        string *pTexts = texts;
-                ^
-1 error generated.
-make: *** [src/Pointers and Arrays.o] Error 1
-11:30:33 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:31:13 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:31:22 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:31:55 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:33:08 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:35:52 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-../src/Pointers and Arrays.cpp:32:10: warning: unused variable 'pEnd' [-Wunused-variable]
-        string *pEnd = &texts[sizeof(texts)/sizeof(string) - 1];
-                ^
-../src/Pointers and Arrays.cpp:31:10: warning: unused variable 'pElement' [-Wunused-variable]
-        string *pElement = texts;
-                ^
-2 warnings generated.
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:38:00 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-../src/Pointers and Arrays.cpp:40:3: warning: expression result unused [-Wunused-value]
-                *pElement++;
-                ^~~~~~~~~~~
-1 warning generated.
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:38:29 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-../src/Pointers and Arrays.cpp:45:3: warning: expression result unused [-Wunused-value]
-                *pElement++;
-                ^~~~~~~~~~~
-1 warning generated.
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:39:04 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-../src/Pointers and Arrays.cpp:38:46: error: expected ';' after expression
-                cout << *pElement << " " << pElement << " " flush;
-                                                           ^
-                                                           ;
-../src/Pointers and Arrays.cpp:38:47: error: reference to overloaded function could not be resolved; did you mean to call it?
-                cout << *pElement << " " << pElement << " " flush;
-                                                            ^~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1051:1: note: possible target for call
-flush(basic_ostream<_CharT, _Traits>& __os)
-^
-2 errors generated.
-make: *** [src/Pointers and Arrays.o] Error 1
-11:39:31 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-../src/Pointers and Arrays.cpp:38:34: error: expected ';' after expression
-                cout << *pElement << " " << " " flush;
-                                               ^
-                                               ;
-../src/Pointers and Arrays.cpp:38:35: error: reference to overloaded function could not be resolved; did you mean to call it?
-                cout << *pElement << " " << " " flush;
-                                                ^~~~~
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/ostream:1051:1: note: possible target for call
-flush(basic_ostream<_CharT, _Traits>& __os)
-^
-2 errors generated.
-make: *** [src/Pointers and Arrays.o] Error 1
-11:39:59 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-11:40:08 **** Incremental Build of configuration Debug for project Pointers and Arrays ****
-make all 
-Building file: ../src/Pointers and Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointers and Arrays.d" -MT"src/Pointers\ and\ Arrays.d" -o "src/Pointers and Arrays.o" "../src/Pointers and Arrays.cpp"
-Finished building: ../src/Pointers and Arrays.cpp
- 
-Building target: Pointers and Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Pointers and Arrays"  ./src/Pointers\ and\ Arrays.o   
-Finished building target: Pointers and Arrays
- 
-12:05:18 **** Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:19:2: error: expected unqualified-id
-        return 0;
+../src/Inheritance.cpp:24:2: error: unknown type name 'Cat'
+        Cat cat;
         ^
-../src/Pointer Arithmetic.cpp:20:1: error: extraneous closing brace ('}')
-}
-^
 2 errors generated.
-make: *** [src/Pointer Arithmetic.o] Error 1
-12:05:35 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
+make: *** [src/Inheritance.o] Error 1
+21:18:08 **** Incremental Build of configuration Debug for project Inheritance ****
 make all 
-Building file: ../src/Pointer Arithmetic.cpp
+Building file: ../src/Inheritance.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.o" -o "src/Inheritance.o" "../src/Inheritance.cpp"
+Finished building: ../src/Inheritance.cpp
  
-Building target: Pointer Arithmetic
+Building target: Inheritance
 Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
+g++  -o "Inheritance"  ./src/Inheritance.o   
+Finished building target: Inheritance
  
-12:06:45 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:31:25 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:31:38 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:31:49 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:32:42 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:25:11: error: use of undeclared identifier 'pTexs'; did you mean 'pTexts'?
-        cout << *pTexs << endl;
-                 ^~~~~
-                 pTexts
-../src/Pointer Arithmetic.cpp:17:10: note: 'pTexts' declared here
-        string *pTexts = texts;
-                ^
-1 error generated.
-make: *** [src/Pointer Arithmetic.o] Error 1
-14:32:49 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:33:23 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:27:10: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'string *' (aka 'basic_string<char, char_traits<char>, allocator<char> > *')
-        string *pEnd = texts[NSTRINGS-1]
-                ^      ~~~~~~~~~~~~~~~~~
-../src/Pointer Arithmetic.cpp:27:34: error: expected ';' at end of declaration
-        string *pEnd = texts[NSTRINGS-1]
-                                        ^
-                                        ;
-2 errors generated.
-make: *** [src/Pointer Arithmetic.o] Error 1
-14:34:03 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:27:10: error: no viable conversion from 'string' (aka 'basic_string<char, char_traits<char>, allocator<char> >') to 'string *' (aka 'basic_string<char, char_traits<char>, allocator<char> > *')
-        string *pEnd = texts[NSTRINGS-1];
-                ^      ~~~~~~~~~~~~~~~~~
-1 error generated.
-make: *** [src/Pointer Arithmetic.o] Error 1
-14:35:36 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:36:51 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:39:04 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:39:33 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:40:00 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:41:20 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:41:33 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:46:28 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:13:12: warning: unused variable 'arrayLength' [-Wunused-variable]
-        const int arrayLength = 10;
-                  ^
-1 warning generated.
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:46:38 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:13:12: warning: unused variable 'arrayLength' [-Wunused-variable]
-        const int arrayLength = 10;
-                  ^
-1 warning generated.
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-14:47:16 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:13:12: warning: unused variable 'arrayLength' [-Wunused-variable]
-        const int arrayLength = 10;
-                  ^
-1 warning generated.
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-15:26:48 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:29:24: error: expected ';' after expression
-        pfirstAnimal = &mainRa y[0];
-                              ^
-                              ;
-../src/Pointer Arithmetic.cpp:29:18: error: use of undeclared identifier 'mainRa'
-        pfirstAnimal = &mainRa y[0];
-                        ^
-../src/Pointer Arithmetic.cpp:29:25: error: use of undeclared identifier 'y'
-        pfirstAnimal = &mainRa y[0];
-                               ^
-../src/Pointer Arithmetic.cpp:31:11: error: use of undeclared identifier 'pFirstAnimal'; did you mean 'pfirstAnimal'?
-                cout << pFirstAnimal << endl;
-                        ^~~~~~~~~~~~
-                        pfirstAnimal
-../src/Pointer Arithmetic.cpp:17:10: note: 'pfirstAnimal' declared here
-        string *pfirstAnimal = mainRay;
-                ^
-4 errors generated.
-make: *** [src/Pointer Arithmetic.o] Error 1
-15:27:02 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:31:11: error: use of undeclared identifier 'pFirstAnimal'; did you mean 'pfirstAnimal'?
-                cout << pFirstAnimal << endl;
-                        ^~~~~~~~~~~~
-                        pfirstAnimal
-../src/Pointer Arithmetic.cpp:17:10: note: 'pfirstAnimal' declared here
-        string *pfirstAnimal = mainRay;
-                ^
-1 error generated.
-make: *** [src/Pointer Arithmetic.o] Error 1
-15:27:22 **** Incremental Build of configuration Debug for project Pointer Arithmetic ****
-make all 
-Building file: ../src/Pointer Arithmetic.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Pointer Arithmetic.d" -MT"src/Pointer\ Arithmetic.d" -o "src/Pointer Arithmetic.o" "../src/Pointer Arithmetic.cpp"
-../src/Pointer Arithmetic.cpp:13:12: warning: unused variable 'arrayLength' [-Wunused-variable]
-        const int arrayLength = 10;
-                  ^
-1 warning generated.
-Finished building: ../src/Pointer Arithmetic.cpp
- 
-Building target: Pointer Arithmetic
-Invoking: MacOS X C++ Linker
-g++  -o "Pointer Arithmetic"  ./src/Pointer\ Arithmetic.o   
-Finished building target: Pointer Arithmetic
- 
-15:35:31 **** Build of configuration Debug for project Char Arrays ****
-make all 
-Building file: ../src/Char Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-Finished building: ../src/Char Arrays.cpp
- 
-Building target: Char Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
-Finished building target: Char Arrays
- 
-15:35:37 **** Incremental Build of configuration Debug for project Char Arrays ****
+21:18:13 **** Incremental Build of configuration Debug for project Inheritance ****
 make all 
 make: Nothing to be done for `all'.
-15:57:13 **** Incremental Build of configuration Debug for project Char Arrays ****
+21:18:39 **** Incremental Build of configuration Debug for project Inheritance ****
 make all 
-Building file: ../src/Char Arrays.cpp
+Building file: ../src/Inheritance.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-../src/Char Arrays.cpp:32:6: error: expected ';' after expression
-                k++
-                   ^
-                   ;
-1 error generated.
-make: *** [src/Char Arrays.o] Error 1
-15:57:23 **** Incremental Build of configuration Debug for project Char Arrays ****
-make all 
-Building file: ../src/Char Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-Finished building: ../src/Char Arrays.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Inheritance.d" -MT"src/Inheritance.o" -o "src/Inheritance.o" "../src/Inheritance.cpp"
+Finished building: ../src/Inheritance.cpp
  
-Building target: Char Arrays
+Building target: Inheritance
 Invoking: MacOS X C++ Linker
-g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
-Finished building target: Char Arrays
+g++  -o "Inheritance"  ./src/Inheritance.o   
+Finished building target: Inheritance
  
-16:13:00 **** Incremental Build of configuration Debug for project Char Arrays ****
+01:25:24 **** Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Char Arrays.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-../src/Char Arrays.cpp:21:19: error: expected expression
-                cout << fat[i]; << flush;
-                                ^
-1 error generated.
-make: *** [src/Char Arrays.o] Error 1
-16:13:14 **** Incremental Build of configuration Debug for project Char Arrays ****
-make all 
-Building file: ../src/Char Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-../src/Char Arrays.cpp:21:11: error: indirection requires pointer operand ('int' invalid)
-                cout << *fat[i]; << flush;
-                        ^~~~~~~
-../src/Char Arrays.cpp:21:20: error: expected expression
-                cout << *fat[i]; << flush;
-                                 ^
-2 errors generated.
-make: *** [src/Char Arrays.o] Error 1
-16:13:23 **** Incremental Build of configuration Debug for project Char Arrays ****
-make all 
-Building file: ../src/Char Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-../src/Char Arrays.cpp:21:11: error: indirection requires pointer operand ('int' invalid)
-                cout << *fat[i] << flush;
-                        ^~~~~~~
-1 error generated.
-make: *** [src/Char Arrays.o] Error 1
-16:13:29 **** Incremental Build of configuration Debug for project Char Arrays ****
-make all 
-Building file: ../src/Char Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-Finished building: ../src/Char Arrays.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Char Arrays
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
-Finished building target: Char Arrays
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-16:13:39 **** Incremental Build of configuration Debug for project Char Arrays ****
-make all 
-Building file: ../src/Char Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-Finished building: ../src/Char Arrays.cpp
- 
-Building target: Char Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
-Finished building target: Char Arrays
- 
-16:15:57 **** Incremental Build of configuration Debug for project Char Arrays ****
-make all 
-Building file: ../src/Char Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-Finished building: ../src/Char Arrays.cpp
- 
-Building target: Char Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
-Finished building target: Char Arrays
- 
-16:16:09 **** Incremental Build of configuration Debug for project Char Arrays ****
-make all 
-Building file: ../src/Char Arrays.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Char Arrays.d" -MT"src/Char\ Arrays.d" -o "src/Char Arrays.o" "../src/Char Arrays.cpp"
-Finished building: ../src/Char Arrays.cpp
- 
-Building target: Char Arrays
-Invoking: MacOS X C++ Linker
-g++  -o "Char Arrays"  ./src/Char\ Arrays.o   
-Finished building target: Char Arrays
- 
-16:38:42 **** Build of configuration Debug for project Reversing a String ****
-make all 
-Building file: ../src/Reversing a String.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
-Finished building: ../src/Reversing a String.cpp
- 
-Building target: Reversing a String
-Invoking: MacOS X C++ Linker
-g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
-Finished building target: Reversing a String
- 
-16:39:32 **** Incremental Build of configuration Debug for project Reversing a String ****
+01:25:30 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
 make: Nothing to be done for `all'.
-16:43:28 **** Incremental Build of configuration Debug for project Reversing a String ****
+01:27:18 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Reversing a String.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
-Finished building: ../src/Reversing a String.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Reversing a String
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
-Finished building target: Reversing a String
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-16:58:46 **** Incremental Build of configuration Debug for project Reversing a String ****
+01:27:27 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Reversing a String.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
-../src/Reversing a String.cpp:23:8: error: redefinition of 'pStart'
-        char *pStart = text;
-              ^
-../src/Reversing a String.cpp:18:8: note: previous definition is here
-        char *pStart = text;
-              ^
-../src/Reversing a String.cpp:32:8: error: redefinition of 'pEnd'
-        char *pEnd = &text[4];
-              ^
-../src/Reversing a String.cpp:20:8: note: previous definition is here
-        char *pEnd = text + nChars - 1;
-              ^
-2 errors generated.
-make: *** [src/Reversing a String.o] Error 1
-16:59:19 **** Incremental Build of configuration Debug for project Reversing a String ****
-make all 
-Building file: ../src/Reversing a String.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
-Finished building: ../src/Reversing a String.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Reversing a String
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
-Finished building target: Reversing a String
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-17:16:15 **** Incremental Build of configuration Debug for project Reversing a String ****
+01:28:35 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Reversing a String.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
-../src/Reversing a String.cpp:31:8: error: redefinition of 'pEnd'
-        char *pEnd = &text[4];
-              ^
-../src/Reversing a String.cpp:20:8: note: previous definition is here
-        char *pEnd = text + nChars - 1;
-              ^
-1 error generated.
-make: *** [src/Reversing a String.o] Error 1
-17:16:38 **** Incremental Build of configuration Debug for project Reversing a String ****
-make all 
-Building file: ../src/Reversing a String.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
-../src/Reversing a String.cpp:18:8: warning: unused variable 'pStart' [-Wunused-variable]
-        char *pStart = text;
-              ^
-1 warning generated.
-Finished building: ../src/Reversing a String.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Reversing a String
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
-Finished building target: Reversing a String
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-17:20:22 **** Incremental Build of configuration Debug for project Reversing a String ****
+01:28:59 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Reversing a String.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
-Finished building: ../src/Reversing a String.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Reversing a String
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
-Finished building target: Reversing a String
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-17:21:05 **** Incremental Build of configuration Debug for project Reversing a String ****
+01:33:49 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Reversing a String.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Reversing a String.d" -MT"src/Reversing\ a\ String.d" -o "src/Reversing a String.o" "../src/Reversing a String.cpp"
-Finished building: ../src/Reversing a String.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Reversing a String
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Reversing a String"  ./src/Reversing\ a\ String.o   
-Finished building target: Reversing a String
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-17:29:19 **** Build of configuration Debug for project References ****
+01:35:09 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/References.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
-Finished building: ../src/References.cpp
- 
-Building target: References
-Invoking: MacOS X C++ Linker
-g++  -o "References"  ./src/References.o   
-Finished building target: References
- 
-17:29:24 **** Incremental Build of configuration Debug for project References ****
-make all 
-make: Nothing to be done for `all'.
-18:02:35 **** Incremental Build of configuration Debug for project References ****
-make all 
-Building file: ../src/References.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
-Finished building: ../src/References.cpp
- 
-Building target: References
-Invoking: MacOS X C++ Linker
-g++  -o "References"  ./src/References.o   
-Finished building target: References
- 
-18:02:46 **** Incremental Build of configuration Debug for project References ****
-make all 
-Building file: ../src/References.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
-Finished building: ../src/References.cpp
- 
-Building target: References
-Invoking: MacOS X C++ Linker
-g++  -o "References"  ./src/References.o   
-Finished building target: References
- 
-18:04:03 **** Incremental Build of configuration Debug for project References ****
-make all 
-Building file: ../src/References.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
-Finished building: ../src/References.cpp
- 
-Building target: References
-Invoking: MacOS X C++ Linker
-g++  -o "References"  ./src/References.o   
-Finished building target: References
- 
-18:04:32 **** Incremental Build of configuration Debug for project References ****
-make all 
-Building file: ../src/References.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
-Finished building: ../src/References.cpp
- 
-Building target: References
-Invoking: MacOS X C++ Linker
-g++  -o "References"  ./src/References.o   
-Finished building target: References
- 
-18:07:31 **** Incremental Build of configuration Debug for project References ****
-make all 
-Building file: ../src/References.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
-../src/References.cpp:13:20: error: expected ';' after expression
-        fruit += " banana"
-                          ^
-                          ;
-1 error generated.
-make: *** [src/References.o] Error 1
-18:07:48 **** Incremental Build of configuration Debug for project References ****
-make all 
-Building file: ../src/References.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
-../src/References.cpp:13:27: error: expected ';' after expression
-        fruit = fruit + " banana"
-                                 ^
-                                 ;
-1 error generated.
-make: *** [src/References.o] Error 1
-18:08:06 **** Incremental Build of configuration Debug for project References ****
-make all 
-Building file: ../src/References.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/References.d" -MT"src/References.o" -o "src/References.o" "../src/References.cpp"
-Finished building: ../src/References.cpp
- 
-Building target: References
-Invoking: MacOS X C++ Linker
-g++  -o "References"  ./src/References.o   
-Finished building target: References
- 
-18:11:14 **** Build of configuration Debug for project Const ****
-make all 
-Building file: ../src/Const.cpp
-Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-../src/Const.cpp:25:2: error: expected '}'
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+../src/Encapsulation.cpp:19:23: error: base class has incomplete type
+class Vehicle: public Machine{
+               ~~~~~~~^~~~~~~
+../src/Encapsulation.cpp:12:7: note: definition of 'Machine' is not complete until the closing '}'
+class Machine {
+      ^
+../src/Encapsulation.cpp:36:2: error: expected '}'
 }
  ^
-../src/Const.cpp:12:14: note: to match this '{'
-class Animal {
-             ^
-../src/Const.cpp:25:2: error: expected ';' after class
+../src/Encapsulation.cpp:12:15: note: to match this '{'
+class Machine {
+              ^
+../src/Encapsulation.cpp:34:10: error: no member named 'info' in 'Machine::Vehicle'
+        vehicle.info();
+        ~~~~~~~ ^
+../src/Encapsulation.cpp:36:2: error: expected ';' after class
+}
+ ^
+ ;
+4 errors generated.
+make: *** [src/Encapsulation.o] Error 1
+01:35:41 **** Incremental Build of configuration Debug for project Encapsulation ****
+make all 
+Building file: ../src/Encapsulation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
+ 
+Building target: Encapsulation
+Invoking: MacOS X C++ Linker
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
+ 
+01:36:19 **** Incremental Build of configuration Debug for project Encapsulation ****
+make all 
+Building file: ../src/Encapsulation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+../src/Encapsulation.cpp:21:13: error: member initializer 'id' does not name a non-static data member or base class
+        Vehicle(): id(11){cout << "Vehicle" << endl;}
+                   ^~~~~~
+1 error generated.
+make: *** [src/Encapsulation.o] Error 1
+01:37:46 **** Incremental Build of configuration Debug for project Encapsulation ****
+make all 
+Building file: ../src/Encapsulation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
+ 
+Building target: Encapsulation
+Invoking: MacOS X C++ Linker
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
+ 
+01:38:12 **** Incremental Build of configuration Debug for project Encapsulation ****
+make all 
+Building file: ../src/Encapsulation.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+../src/Encapsulation.cpp:40:2: error: expected '}'
+}
+ ^
+../src/Encapsulation.cpp:23:27: note: to match this '{'
+class Car: public Vehicle {
+                          ^
+../src/Encapsulation.cpp:40:2: error: expected ';' after class
 }
  ^
  ;
 2 errors generated.
-make: *** [src/Const.o] Error 1
-18:11:53 **** Incremental Build of configuration Debug for project Const ****
+make: *** [src/Encapsulation.o] Error 1
+01:38:27 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-Finished building: ../src/Const.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Const
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Const"  ./src/Const.o   
-Finished building target: Const
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-18:11:56 **** Incremental Build of configuration Debug for project Const ****
+01:39:00 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-make: Nothing to be done for `all'.
-18:15:33 **** Incremental Build of configuration Debug for project Const ****
-make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-Finished building: ../src/Const.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Const
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Const"  ./src/Const.o   
-Finished building target: Const
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-18:16:22 **** Incremental Build of configuration Debug for project Const ****
+01:41:41 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-Finished building: ../src/Const.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
  
-Building target: Const
+Building target: Encapsulation
 Invoking: MacOS X C++ Linker
-g++  -o "Const"  ./src/Const.o   
-Finished building target: Const
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
  
-18:22:37 **** Incremental Build of configuration Debug for project Const ****
+01:42:34 **** Incremental Build of configuration Debug for project Encapsulation ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Encapsulation.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-../src/Const.cpp:34:6: error: redefinition of 'value'
-        int value = 8;
-            ^
-../src/Const.cpp:25:6: note: previous definition is here
-        int value = 7;
-            ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Encapsulation.d" -MT"src/Encapsulation.o" -o "src/Encapsulation.o" "../src/Encapsulation.cpp"
+Finished building: ../src/Encapsulation.cpp
+ 
+Building target: Encapsulation
+Invoking: MacOS X C++ Linker
+g++  -o "Encapsulation"  ./src/Encapsulation.o   
+Finished building target: Encapsulation
+ 
+02:03:25 **** Build of configuration Debug for project Static ****
+make all 
+Building file: ../src/Static.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+../src/Static.cpp:21:10: error: use of undeclared identifier 'test'; did you mean 'Test'?
+        cout << test::count << endl;
+                ^~~~
+                Test
+../src/Static.cpp:13:7: note: 'Test' declared here
+class Test {
+      ^
 1 error generated.
-make: *** [src/Const.o] Error 1
-18:22:57 **** Incremental Build of configuration Debug for project Const ****
+make: *** [src/Static.o] Error 1
+02:03:51 **** Incremental Build of configuration Debug for project Static ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Static.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-Finished building: ../src/Const.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
  
-Building target: Const
+Building target: Static
 Invoking: MacOS X C++ Linker
-g++  -o "Const"  ./src/Const.o   
-Finished building target: Const
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
  
-18:23:07 **** Incremental Build of configuration Debug for project Const ****
+02:05:29 **** Incremental Build of configuration Debug for project Static ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Static.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-Finished building: ../src/Const.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
  
-Building target: Const
+Building target: Static
 Invoking: MacOS X C++ Linker
-g++  -o "Const"  ./src/Const.o   
-Finished building target: Const
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
  
-18:28:04 **** Incremental Build of configuration Debug for project Const ****
+02:06:59 **** Incremental Build of configuration Debug for project Static ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Static.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-../src/Const.cpp:38:10: error: read-only variable is not assignable
-        *pValue = 12;
-        ~~~~~~~ ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+../src/Static.cpp:17:12: warning: duplicate 'const' declaration specifier [-Wduplicate-decl-specifier]
+        const int const MAX = 99;
+                  ^~~~~~
+../src/Static.cpp:17:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        const int const MAX = 99;
+                            ^
+2 warnings generated.
+Finished building: ../src/Static.cpp
+ 
+Building target: Static
+Invoking: MacOS X C++ Linker
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
+ 
+02:07:19 **** Incremental Build of configuration Debug for project Static ****
+make all 
+Building file: ../src/Static.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+../src/Static.cpp:17:12: warning: duplicate 'const' declaration specifier [-Wduplicate-decl-specifier]
+        const int const MAX = 99;
+                  ^~~~~~
+../src/Static.cpp:17:22: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        const int const MAX = 99;
+                            ^
+../src/Static.cpp:27:16: error: invalid use of non-static data member 'MAX'
+        cout << Test::MAX << endl;
+                ~~~~~~^~~
+2 warnings and 1 error generated.
+make: *** [src/Static.o] Error 1
+02:07:31 **** Incremental Build of configuration Debug for project Static ****
+make all 
+Building file: ../src/Static.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
+ 
+Building target: Static
+Invoking: MacOS X C++ Linker
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
+ 
+02:08:56 **** Incremental Build of configuration Debug for project Static ****
+make all 
+Building file: ../src/Static.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+../src/Static.cpp:32:11: error: redefinition of 'count'
+int Test::count = 7;
+          ^
+../src/Static.cpp:28:11: note: previous definition is here
+int Test::count = 0;
+          ^
 1 error generated.
-make: *** [src/Const.o] Error 1
-18:28:14 **** Incremental Build of configuration Debug for project Const ****
+make: *** [src/Static.o] Error 1
+02:09:28 **** Incremental Build of configuration Debug for project Static ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Static.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-Finished building: ../src/Const.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
  
-Building target: Const
+Building target: Static
 Invoking: MacOS X C++ Linker
-g++  -o "Const"  ./src/Const.o   
-Finished building target: Const
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
  
-18:28:24 **** Incremental Build of configuration Debug for project Const ****
+02:09:41 **** Incremental Build of configuration Debug for project Static ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Static.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-../src/Const.cpp:36:6: warning: unused variable 'number' [-Wunused-variable]
-        int number = 11;
-            ^
-1 warning generated.
-Finished building: ../src/Const.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
  
-Building target: Const
+Building target: Static
 Invoking: MacOS X C++ Linker
-g++  -o "Const"  ./src/Const.o   
-Finished building target: Const
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
  
-18:28:30 **** Incremental Build of configuration Debug for project Const ****
+02:09:54 **** Incremental Build of configuration Debug for project Static ****
 make all 
-Building file: ../src/Const.cpp
+Building file: ../src/Static.cpp
 Invoking: GCC C++ Compiler
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Const.d" -MT"src/Const.o" -o "src/Const.o" "../src/Const.cpp"
-Finished building: ../src/Const.cpp
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
  
-Building target: Const
+Building target: Static
 Invoking: MacOS X C++ Linker
-g++  -o "Const"  ./src/Const.o   
-Finished building target: Const
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
+ 
+02:11:47 **** Incremental Build of configuration Debug for project Static ****
+make all 
+Building file: ../src/Static.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
+ 
+Building target: Static
+Invoking: MacOS X C++ Linker
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
+ 
+02:12:13 **** Incremental Build of configuration Debug for project Static ****
+make all 
+Building file: ../src/Static.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
+ 
+Building target: Static
+Invoking: MacOS X C++ Linker
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
+ 
+02:12:28 **** Incremental Build of configuration Debug for project Static ****
+make all 
+Building file: ../src/Static.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
+ 
+Building target: Static
+Invoking: MacOS X C++ Linker
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
+ 
+02:12:36 **** Incremental Build of configuration Debug for project Static ****
+make all 
+Building file: ../src/Static.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Static.d" -MT"src/Static.o" -o "src/Static.o" "../src/Static.cpp"
+Finished building: ../src/Static.cpp
+ 
+Building target: Static
+Invoking: MacOS X C++ Linker
+g++  -o "Static"  ./src/Static.o   
+Finished building target: Static
  

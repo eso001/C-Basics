@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Const.cpp
+// Name        : Inheritance.cpp
 // Author      : Eric So
 // Version     :
 // Copyright   : Your copyright notice
@@ -10,35 +10,28 @@
 using namespace std;
 
 class Animal {
+public:
+	void speak(){ cout << "Grrr" << endl;}
+};
+class Cat: public Animal {
+public:
+	void jump(){cout << "Cat jumping" << endl; }
+};
+
+class Fruit {
 private:
 	string name;
-public:
-	void setName(string name) { this->name = name; };
-	void speak() const { cout << "My name is: " << name << endl;}
+	string type = "food";
+private:
+	void setFruit(string name){ this->name = name; }
 };
 int main() {
 
-	const double PI = 3.141592;
+	Animal a;
+	a.speak();
 
-	cout << PI << endl;
-
-	Animal animal;
-
-	animal.setName("Freddy");
-	animal.speak();
-
-	int value = 8;
-
-	int * pValue = &value;
-
-	cout << *&pValue << endl;
-
-	int number = 11;
-	pValue = &number;
-
-
-	cout << *pValue << endl;
-
-
+	Cat cat;
+	cat.speak();
+	cat.jump();
 	return 0;
 }
